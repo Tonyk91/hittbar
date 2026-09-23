@@ -1,0 +1,1416 @@
+{
+ "source": "https://developer.if-insurance.com",
+ "snapshot_date": "2026-09-24",
+ "pages": [
+  {
+   "id": "identity-and-party-apis/global-party-apis",
+   "url": "https://developer.if-insurance.com/apis/Identity-and-party-apis/global-party-apis/",
+   "category": "Identity-and-party-apis",
+   "name": "Global Party APIs",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Discover a powerful solution that allows you to effortlessly access up-to-date and curated party information (persons or companies).\nEasy access to common basic information such as name, contact information, etc\nSeveral search options such as, unique If id, social security number, corporate identification number, and customer number.\nReal-Time Access to Trusted Data\nProvide access to party data, retrieve and manage customer-related information such as personal details, contact data, and identifiers. The APIs are designed to support seamless integration with digital platforms, ensuring consistent and secure handling of party data.\nHosted in a modern cloud environment, the APIs are designed to scale with demand while maintaining high standards for security and compliance. These APIs are designed to support digital transformation by enabling seamless integration across platforms, partners, and services.",
+   "products": [
+    {
+     "id": "see-party",
+     "name": "See Party",
+     "description": "Global Party API to fetch common information about companies and persons.",
+     "apis": [
+      {
+       "name": "See Party",
+       "description": "Global Party API to see common information about a party, in the first version of this API you can see existing data If P&C already has. Scope. party.read"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "claims/read-all-claims-for-external-usage",
+   "url": "https://developer.if-insurance.com/apis/claims/read-all-claims-for-external-usage/",
+   "category": "claims",
+   "name": "Read All Claims for External Usage",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Read All Claims for External Usage\nHave you ever wondered whether you could find information about the claims reported by If customers? Using Claims API, it is now possible.\nVerify if a claim has already been opened for your client.\nClaim already closed? You can view the real-time status of a claim.\nIntuitive search parameters and additional criteria to narrow down search results\nEnhancing claims processing efficiency\nThis API allows you to fetch claim with a claim number or use customers personal identifier to get a set of claims. The API and its data model well-documented and easy to integrate to your applications. You will receive vital real-time information about the claim.\nUse case A customer is on a business trip and has an accident upon arriving at the airport, prompting him to report a claim. Later during the trip, he needs to revisit a doctor to obtain additional medicines, and contacts If travel partner about the new expenses. With integration to the All Claims API, partner applications can provide information about recent claims with a single request using the customer's personal identifier as a request parameter.",
+   "products": [
+    {
+     "id": "read-claims",
+     "name": "Read Claims",
+     "description": "Partner companies don't have access to the If systems which contain claim history. They might for example need to see all the claims that are related to a person who calls them and needs help. Using the Claims API the partner companies can find all existing claims that match the given search criteria and provide better service on behalf of If.",
+     "apis": [
+      {
+       "name": "Read Claims",
+       "description": "Partner companies don't have access to the If systems which contain claim history. They might for example need to see all the claims that are related to a person who calls them and needs help. Using the Claims API the partner companies can find all existing claims that match the given search criteria and provide better service on behalf of If."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "communication/event-subscription",
+   "url": "https://developer.if-insurance.com/apis/communication/event-subscription/",
+   "category": "communication",
+   "name": "Event Subscription APIs",
+   "meta_description": "Manage your subscriptions to If event products (Async APIs)",
+   "ai_description": "",
+   "page_text": "Manage your subscriptions to If event products (Async APIs)\nManage state of event subscriptions\nSubscribe to events from If using standardised technology\nManage your subscriptions to If events to get updates in real time.\nEvents work a bit like the good old SMS notifications but are used for applications talking to one another. While traditional APIs typically are used to request a set of data or functionality at a specific time, events can be used to be notified when there is a state change, e.g updated data in a customer engagement. This way you can avoid having to call the API all the time to check if something has happened, and you can instead create a subscription to an event and be notified. Events also greatly benefit various customer journies as users will get updated right away.",
+   "products": [
+    {
+     "id": "event-subscription-management",
+     "name": "Event Subscription Management",
+     "description": "Manage event subscriptions via API for If's event products.",
+     "apis": [
+      {
+       "name": "Event Subscription Management",
+       "description": "API Product to manage event subscription for partners using If's event products."
+      },
+      {
+       "name": "Event Subscription Management",
+       "description": "API Product to manage event subscription for partners using If's event products."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "communication/prospects-and-opportunities-apis",
+   "url": "https://developer.if-insurance.com/apis/communication/prospects-and-opportunities-apis/",
+   "category": "communication",
+   "name": "Prospects And Opportunities APIs",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Prospects and Opportunities APIs\nUnified interface for partners and internal systems to register prospects and opportunities.\nA unified interface to register prospects and opportunities across If’s Business Areas.\nInformation model that supports various use cases.\nif icon symbol curve-directions\nRobust handling for personally identifiable information.\nIf offers various APIs to partners and internal processes depending on the underlaying use case and data processing requirements. APIs are multi-level secured. Application Development team grants second level access post first level access at Curity Scope. Contact App development (crm.it@if.se) for the second level access.\nRegister Prospects and Opportunities This API product can be used by partners of If P&C to register leads consisting of prospective customers. If will use this information to perform the activities agreed between If P&C and the partner. Register Referral Leads Referral leads are customer leads shared by, for example, If's partners or B2B customers' employees. Our employees and employees of our key partners have conversations with customers every day, also in scenarios not related to sales. This API will capture the referral lead, and asynchronously send it to where it can be handled best. Register Personal Insurance Leads This API is similar to the general Register Prospects and Opportunities API, but meets further requirements related to the processing of health-related information. Retrieve Leads Info This API will serve as the external interface for partners to fetch (pull) leads that If is sharing with them. The API will offer two endpoints: one for querying leads based on lead group and lead creation timestamp, and another for fetching a lead using its lead group and lead id. The lead data will initially consist of Private or Commercial lead information, but will eventually cover more lead types. Consumers of the API will be partner systems, and we will later provide various interfaces for internal If systems to forward leads that should be sent to partners.\nProspects And Opportunities APIs",
+   "products": [
+    {
+     "id": "register-referral-leads",
+     "name": "Register Referral Leads",
+     "description": "This API product can be used to register referral leads internally at If or by external partners via front-end solutions provided to them by If e.g. portals.",
+     "apis": [
+      {
+       "name": "Register Referral Leads",
+       "description": "This API product can be used to register referral leads internally at If or by external partners via front-end solutions provided to them by If e.g. Nordea portal.  Note that a small configuration will be needed for new API Consumers."
+      }
+     ]
+    },
+    {
+     "id": "register-prospects-and-opportunities",
+     "name": "Register Prospects and Opportunities",
+     "description": "This API product can be used to register leads (prospects or sales opportunities) via partners or If's internal sources. The API can also be used for contact requests from if.xx or If's logged-in applications.",
+     "apis": [
+      {
+       "name": "Register Prospects and Opportunities ",
+       "description": "This API product can be used to register leads (prospects or sales opportunities) via partners or If's internal sources. The API can also be used for contact requests from if.xx or If's logged-in applications."
+      },
+      {
+       "name": "Register Prospects and Opportunities ",
+       "description": "This API product can be used to register leads (prospects or sales opportunities) via partners or If's internal sources. The API can also be used for contact requests from if.xx or If's logged-in applications."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "industrial/customer-documents-api-and-events",
+   "url": "https://developer.if-insurance.com/apis/industrial/customer-documents-api-and-events/",
+   "category": "industrial",
+   "name": "Customer Documents API and Events",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Customer Documents API and Events\nThe Customer Documents API allows customers to retrieve document types, download document metadata, and files from If Login Industrial System. Additionally, customers can set up a webhook to receive events related to document updates.\nFetch all relevant documents for your use case and build flows to store them efficiently.\nEnsure policies and invoices are available in your systems as they are published.\nThe Retrieve Customer Documents API allows customers to retrieve document types and document metadata to fetch files from If Login Industrial System. Additionally, consumers of the API can set up a webhook to receive events related to document updates. Customer Documents API seamlessly integrates with broker, customer, or third-party systems, accessing document metadata and downloading documents with ease. Real-time updates: By setting up a webhook, API consumers can receive real-time updates on document updates, ensuring they always have the most up-to-date information. The API allows for retrieving documents from the system on a large scale. Consumers can also download document metadata, including information about the document, policy number, company, publishing date etc. In addition, customers can download files by providing the DocumentId as an input parameter. Receive Customer Document events Receive Customer Documents events when new documents are created or existing ones are changed to secure an up-to-date archive of policies and invoices. Additional information: The API is intended for brokers or enterprises to track updates, create policies and fetch them to use in internal systems. Examples can be a broker fetching all relevant client's policies or an entreprise needing to archive all policies or invoices throughout the year. Technical documentation: The client credentials flow/grant is designed for server-to-server (backend-to-backend) communication. Therefore, the client must agree to ONLY use backend-to-backend communication. The client credentials used in this API can NEVER be used by mobile or web applications. Technical requirements: Authentication: Every customer should have an active user in If Login Industrial. Customers must have a valid API key to access the Retrieve Customer Documents API. Webhook: Customers must set up a webhook to receive real-time updates on document updates. The webhook endpoint should be set on event service subscription activation.",
+   "products": [
+    {
+     "id": "retrieve-customer-documents",
+     "name": "Retrieve Customer Documents",
+     "description": "This API allows for retrieving documents, based on events, from If Login Industrial system towards brokers, customers and similar audiences.",
+     "apis": [
+      {
+       "name": "Retrieve Customer Documents",
+       "description": "This API allows for retrieving documents, based on events, from If Login Industrial system towards brokers, customers and similar audiences."
+      }
+     ]
+    },
+    {
+     "id": "customer-documents-events",
+     "name": "Customer Documents Events",
+     "description": "Sends notification of updates in documents towards brokers, customers and similar audiences. Used together with Retrieve Customer Documents API.",
+     "apis": [
+      {
+       "name": "Customer Documents Events",
+       "description": "Sends notification of updates in documents towards brokers, customers and similar audiences. Used together with Retrieve Customer Documents API."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "industrial/industrial-read-claims-apis",
+   "url": "https://developer.if-insurance.com/apis/industrial/industrial-read-claims-apis/",
+   "category": "industrial",
+   "name": "Industrial Read Claims APIs",
+   "meta_description": "Customize insurance experiences with this API as a client, broker, or integration partner",
+   "ai_description": "",
+   "page_text": "Provide excellent industrial claims insurance experiences as a client, broker, or integration partner.\nProvide an overview of all company's claims.\nTrack changes in claim amounts, reserves and more.\nDive into claim assessments across all lines of business.\nOur goal with the Industrial Read Claims APIs is to make data more accessible for our clients. Regardless of how our clients prefer to work, we want data to be available when it is needed. We know extracting and mapping data can be cumbersome. We seek to automate this process, so data flows seamlessly between systems. Whether you want to integrate with our APIs as a client, broker, or integration partner, we aim to provide frictionless exchange of data that supports your business goals.\nCustomize insurance experiences with this API as a client, broker, or integration partner",
+   "products": [
+    {
+     "id": "read-industrial-claims",
+     "name": "Read Industrial Claims",
+     "description": "APIs to read claims data for Industrial customers",
+     "apis": [
+      {
+       "name": "Read Claims Booking Industrial",
+       "description": "This API allows Industrial clients to retrieve their claims booking across lines of business. The product also caters for integration partners, who access the API on behalf of clients. Data is updated every 24h."
+      },
+      {
+       "name": "Read Claims Industrial",
+       "description": "This API allows Industrial clients to retrieve their claims across lines of business. The product also caters for integration partners, who access the API on behalf of clients. Data is updated every 24h."
+      },
+      {
+       "name": "Read Claims Industrial",
+       "description": "This API allows Industrial clients to retrieve their claims across lines of business. The product also caters for integration partners, who access the API on behalf of clients. Data is updated every 24h."
+      },
+      {
+       "name": "Read Claims Supporting Info Industrial",
+       "description": "This API returns supporting data to complement other related APIs, like Read Claims Industrial API and also Read Claims Booking Industrial API. It can, for example, give references to the related party and or policy."
+      },
+      {
+       "name": "Read Claims Supporting Info Industrial",
+       "description": "This API returns supporting data to complement other related APIs, like Read Claims Industrial API and also Read Claims Booking Industrial API. It can, for example, give references to the related party and or policy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/branded-heavy-vehicle-insurance-se",
+   "url": "https://developer.if-insurance.com/apis/mobility/branded-heavy-vehicle-insurance-se/",
+   "category": "mobility",
+   "name": "Branded Heavy Vehicle Insurance SE",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Branded Heavy Vehicle Insurance SE\nSeamless integration of insurance flow to meet customer needs.\nCreate a personalized quote as a private person or a company. It doesn´t even need to be in trafic and have a registration number yet!\nBased on the vehicles age, model, active warranties etc, we recommend a suitable coverage level.\nAn API to calculate the price and get an insurance quote for heavy vehicles\nBuying or leasing a truck or a trailer is a big investment, therefore it is important to make sure that the insurance fits the customers needs and has the right level of coverage.\nInsurance Quote The APIs allow the vehicle buyer to get a quote for the specific vehicle based on their preference on coverage, mileage and addons. The quote is valid for three months and the APIs allows for the quote to be updated to fit the customers preferences. Price calculations are supported for both private customers (with an SSN) and commercial customers (with an organization number). We can calculate price on both new vehicles, that might not yet have a registration number or has not even be manufactured and older ones where everything is already in place.",
+   "products": [
+    {
+     "id": "request-quote-branded-heavy-vehicle-insurance-se-system",
+     "name": "Request Quote Branded Heavy Vehicle Insurance SE System",
+     "description": "API for creating, retrieving, updating, and deleting quotes for branded heavy vehicles in Sweden.",
+     "apis": [
+      {
+       "name": "Request Quote Branded Heavy Vehicle Insurance SE System",
+       "description": "API for creating, retrieving, updating, and deleting quotes for branded heavy vehicles in Sweden."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/car-insurance-apis-denmark",
+   "url": "https://developer.if-insurance.com/apis/mobility/car-insurance-apis-denmark/",
+   "category": "mobility",
+   "name": "Car Insurance APIs Denmark",
+   "meta_description": "Improve your Danish customers' mobility experience and make sure that their insurance needs are taken care of by using our car insurance APIs.",
+   "ai_description": "",
+   "page_text": "Improve your customers' experience and ensure their insurance needs are taken care of by using our car insurance APIs.\nImprove customer journeys by letting the customer know the price at the point of sale.\nA competitive concept across car brands, models, customer segments and geography\nNext chapter within innovative branded insurance concepts\n# 1 mobility partner in the Nordics\nWhen buying a car or signing up for a mobility concept, insurance is typically not top of mind for the customer, but it is something that just has to be in order before going on the road.\nOur goal is to be the #1 mobility partner in the Nordics. We do not only offer access to our APIs but also knowledge about Danish insurance market, mobility market and guidance in local law and regulations. It's not only about the APIs, all our employees are passionate about making sure that our joint customers are correctly insuranced, and about beeing by their side when something happens. When using our Car Insurance APIs you help your customers get their insurances in order in a smooth way, and you can be safe that they are well taken care of.\nImprove your Danish customers' mobility experience and make sure that their insurance needs are taken care of by using our car insurance APIs.",
+   "products": [
+    {
+     "id": "buy-car-insurance-dk",
+     "name": "Buy Car Insurance DK",
+     "description": "APIs for requesting price and buy car insurance in Denmark. Main inputs that will affect the price for the customer is; customer data (age and address etc), car data (brand, model, year etc.), milage and deductible.",
+     "apis": [
+      {
+       "name": "Request Price And Buy Car Insurance DK",
+       "description": "This API is for requesting price and buy car insurance in Denmark. Main input: Customer data (age and address etc), Car data (brand, model, year etc.), milage and deductible are input parameters that will affect the price for the customer. One price for one product is returned, so no quotes and then the customer can order the insurance. The API will be used from dealer's systems. Consents for sharing data with If and also to use that data in marketing. The employees at the dealer are authenticated in their system. Then the dealer employee ID is sent via the API. Oauth scopes:  car.purchase.dk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/car-insurance-apis-finland",
+   "url": "https://developer.if-insurance.com/apis/mobility/car-insurance-apis-finland/",
+   "category": "mobility",
+   "name": "Car Insurance APIs Finland",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "",
+   "products": [
+    {
+     "id": "request-price-car-insurance-fi",
+     "name": "Request Price Car Insurance FI",
+     "description": "Request Price Car Insurance FI",
+     "apis": [
+      {
+       "name": "Request Price Car Insurance FI",
+       "description": "An API Product to calculate price for private car insurances for Finland. Currently only support calculating price for used cars. Oauth scope: car.price"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/car-insurance-norway",
+   "url": "https://developer.if-insurance.com/apis/mobility/car-insurance-norway/",
+   "category": "mobility",
+   "name": "Car Insurance APIs Norway",
+   "meta_description": "Enhance your Norwegian customers mobility experience with APIs from If and make sure that their insurance needs are taken care of",
+   "ai_description": "",
+   "page_text": "Enhance your customers experience buy using our Quote & Buy or Try On car insurance APIs.\nCreate smooth insurance experiences, powered by If, in your channels.\nBy using our try-on API you can offer your customers 1 month of our best insurance coverage for free.\nif icon symbol add-notification\nIf is awarded best customer service in Norway by Kantar for 5 consecutive years.\n#1 mobility partner in the Nordics\nOur goal is to be the #1 mobility partner in the Nordics. We do not only offer access to our APIs but also knowledge about the Norwegian insurance market, mobility market and guidance in local law and regulations.\nWhen buying a car or signing up for a mobility concept, insurance is typically not top of mind for the customer, but it is something that just has to be in order before going on the road. If not, it can have catastrophic financial consequenses for your customers. We are not just offering APIs to power your digital channels with If insurance experiences. All our employees are passionate about making sure that our joint customers are correctly insured, and about beeing by their side when something happens. When using our Car Insurance APIs you help your customers get their insurances in a smooth way, and you can be safe that they are well taken care of. Quote & Buy APIs Our Quote and Buy APIs are suitable in customer journeys when your customers probably know what they need and just want to get it done. It allows your customers to chose coverage & milage, get a price and the possibility to order the insurance as an integral part of your customer journey. TryOn APIs Our TryOn API is more suitable if your customers need help to decide what is the appropriate coverage for them. The Try-On API will give you the possibility to offer your customers 1 month for free of If's best insurance coverage. During this period If will contact the customer and make sure that they are correctly insured. See Engagement API This API accepts a vehicle registration number and/or VIN as input and returns a simple Yes/No response indicating whether an active insurance engagement exists with If for the specified vehicle. This enables partners to: Target insurance offerings more effectively, by identifying customers who do not already have coverage with If Avoid redundant or irrelevant offers to customers who are already insured As a result, the API helps: Improve the customer experience in digital journeys Provide clearer and more relevant information Reduce unnecessary friction and duplication in insurance offers\nEnhance your Norwegian customers mobility experience with APIs from If and make sure that their insurance needs are taken care of",
+   "products": [
+    {
+     "id": "buy-car-insurance-no",
+     "name": "Buy Car Insurance NO",
+     "description": "Buy Car Insurance NO",
+     "apis": [
+      {
+       "name": "Buy Car Insurance NO",
+       "description": "API that supports purchasing car insurances for Norwegian private consumers."
+      },
+      {
+       "name": "List Coverage Items Car Insurance Private NO",
+       "description": "Coverage items for Car Insurance Private NO"
+      },
+      {
+       "name": "List Financing Companies Private NO",
+       "description": "API that supports listing Norwegian financing companies."
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "List Leasing Companies Private NO",
+       "description": "Leasing Companies for Private NO"
+      },
+      {
+       "name": "Request Quote Car Insurance NO",
+       "description": "Scope for V2 Request Quote for Car Insurance NO: car.quote.no"
+      },
+      {
+       "name": "Search Brand Codes Car Insurance Private NO",
+       "description": "Brand Codes for Car Insurance Private NO"
+      }
+     ]
+    },
+    {
+     "id": "tryon-car-insurance-no",
+     "name": "TryOn Car Insurance NO",
+     "description": "TryOn Car Insurance NO",
+     "apis": [
+      {
+       "name": "List Coverage Items Car Insurance Private NO",
+       "description": "Coverage items for Car Insurance Private NO"
+      },
+      {
+       "name": "List Financing Companies Private NO",
+       "description": "API that supports listing Norwegian financing companies."
+      },
+      {
+       "name": "List Leasing Companies Private NO",
+       "description": "Leasing Companies for Private NO"
+      },
+      {
+       "name": "Search Brand Codes Car Insurance Private NO",
+       "description": "Brand Codes for Car Insurance Private NO"
+      },
+      {
+       "name": "TryOn Car insurance NO",
+       "description": "Give customers  the opportunity to try out our best insurance for cars for a given period."
+      },
+      {
+       "name": "TryOn Car insurance NO",
+       "description": "Give customers  the opportunity to try out our best insurance for cars for a given period."
+      }
+     ]
+    },
+    {
+     "id": "request-quote-car-insurance-no",
+     "name": "Request Quote Car Insurance NO",
+     "description": "This API is used to Request Quotes for car insurances and it can be used in the Norwegian market only.",
+     "apis": [
+      {
+       "name": "List Coverage Items Car Insurance Private NO",
+       "description": "Coverage items for Car Insurance Private NO"
+      },
+      {
+       "name": "Request Quote Car Insurance NO",
+       "description": "Scope for V2 Request Quote for Car Insurance NO: car.quote.no"
+      },
+      {
+       "name": "Search Brand Codes Car Insurance Private NO",
+       "description": "Brand Codes for Car Insurance Private NO"
+      }
+     ]
+    },
+    {
+     "id": "see-engagement-vehicle-insurance-no",
+     "name": "See Engagement Vehicle Insurance NO",
+     "description": "This API accepts a vehicle registration number and/or VIN as input and returns a simple Yes/No response indicating whether an active insurance engagement exists with If for the specified vehicle.",
+     "apis": [
+      {
+       "name": "See Engagement Vehicle Insurance NO",
+       "description": "This API accepts a vehicle registration number and/or VIN as input and returns a simple Yes/No response indicating whether an active insurance engagement exists with If for the specified vehicle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/car-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/mobility/car-insurance-sweden/",
+   "category": "mobility",
+   "name": "Car Insurance APIs Sweden",
+   "meta_description": "Enhance your customers mobility experience and make sure that their insurance needs are taken care of by using our Car insurance APIs.",
+   "ai_description": "",
+   "page_text": "Seamless customers experience with this set of Car insurance APIs.\nHelp your customers to see total cost of ownership of a car.\nBased on car model, year and warranties\nSell insurances, powered by If, in your digital channels.\nA set of APIs to cover all needs of the customer when it comes to car insurance\nWhen buying a car or signing up for a mobility concept, insurance is typically not top of mind for the customer, but it it something that just has to be in order before going on the road.\nQuote & Buy Insurance These APIs allow your customers to chose coverage & milage, get a price and order insurance as an integral part of your customer journey Private customers and commercial customers with a passenger car or light commercial vehicle can make a quote for an insurance price. This will enable including insurance details in for example leasing cost, \"total cost of ownership\" or in business proposal when selling a car. The API can expose price for both an ordinary insurance and for our specific partner products (such as Volvo Nationell Leasing, Renault Relax etc) See Insurance These APIs accept vehicle registration number, VIN, and/or insurance information as input. It then returns the end customer’s insurance engagement for branded car insurance products in Sweden, enabling the customer to view the details of their insurance engagement (for example, through a partner application). The insurance engagement may include details such as personal information, active insurance policies, invoicing information, coverage details, deductibles, mileage data, and insurance documentation. Contact Info API for submitting potential and existing customers' contact information such as Name, Car register number, Phone number, Email address and Social security number from, for example, a car dealer's management system. Order Management This API product will handle insurance orders. This will enable customers and agents to place an insurance order as well as update them with new information, such as mileage and coverage.\nEnhance your customers mobility experience and make sure that their insurance needs are taken care of by using our Car insurance APIs.",
+   "products": [
+    {
+     "id": "buy-branded-car-insurance-se",
+     "name": "Buy Branded Car Insurance SE",
+     "description": "Buy Branded Car Insurance SE",
+     "apis": [
+      {
+       "name": "Buy Branded Car Insurance SE",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded."
+      },
+      {
+       "name": "Request Quote Branded Car Insurance SE",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded."
+      },
+      {
+       "name": "Request Quote Branded Car Insurance SE",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded."
+      }
+     ]
+    },
+    {
+     "id": "request-quote-branded-car-insurance-se",
+     "name": "Request Quote Branded Car Insurance SE",
+     "description": "API supports the Swedish car insurance portfolios VRF, IMF and some If-branded. The APIs handles the whole country of Sweden, but no other geographical areas.",
+     "apis": [
+      {
+       "name": "Request Quote Branded Car Insurance SE",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded."
+      },
+      {
+       "name": "Request Quote Branded Car Insurance SE",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded."
+      }
+     ]
+    },
+    {
+     "id": "manage-orders-branded-car-insurance-se",
+     "name": "Manage Orders Branded Car Insurance SE",
+     "description": "Manage insurance orders for vehicles that have not been delivered yet.",
+     "apis": [
+      {
+       "name": "Manage Orders Branded Car Insurance SE",
+       "description": "Manage insurance orders for vehicles that are not delivered yet."
+      }
+     ]
+    },
+    {
+     "id": "submit-contact-info-branded-car-insurance-se",
+     "name": "Submit Contact Info Branded Car Insurance SE",
+     "description": "Submit Contact Info Branded Car Insurance SE",
+     "apis": [
+      {
+       "name": "Submit Contact Info Branded Car Insurance SE",
+       "description": "API for submitting potential and existing customer's contact information such as Name, Car register number, Address, Phone number, Email address and Social security number from the car dealer's management system. The API is mainly used to ensure conversion from TryOn insurances and -or offer digital customer services (e.g. e-policy).  The information is stored for 6 months and is then deleted if the customer does not become an If customer."
+      }
+     ]
+    },
+    {
+     "id": "see-engagement-branded-car-insurance-se",
+     "name": "See Engagement Branded Car Insurance SE",
+     "description": "This API takes SSN, org. number, registration number, VIN number and/or insurance info as input and returns then end-customers insurance engagement for branded car insurances in Sweden. The insurance engagement can be data such as the customer personalia, insurance policies, invoicing info, coverages, deductibles, mileage, insurance letters etc.",
+     "apis": [
+      {
+       "name": "See Engagement Branded Car Insurance SE",
+       "description": "This API takes SSN, org. number, registration number, VIN number and/or insurance info as input and returns then end-customers insurance engagement for branded car insurances in Sweden. The insurance engagement can be data such as the customer personalia, insurance policies, invoicing info, coverages, deductibles, mileage, insurance letters etc."
+      }
+     ]
+    },
+    {
+     "id": "buy-branded-car-insurance-se-external-user",
+     "name": "Buy Branded Car Insurance SE External User",
+     "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded. The end customer identifies itself with BankID.",
+     "apis": [
+      {
+       "name": "Buy Branded Car Insurance SE External User",
+       "description": "The API product supports the Swedish car insurance portfolios VRF, IMF and If-branded. The end customer identifies itself with BankID."
+      }
+     ]
+    },
+    {
+     "id": "see-engagement-branded-car-insurance-se-user",
+     "name": "See Engagement Branded Car Insurance SE User",
+     "description": "This API accepts the customer’s SSN (verified via Swedish BankID), vehicle registration number, VIN, and/or insurance information as input. It then returns the end customer’s insurance engagement for branded car insurance products in Sweden, enabling the customer to view the details of their insurance engagement (for example, through a partner application). The insurance engagement may include details such as personal information, active insurance policies, invoicing information, coverage details, deductibles, mileage data, and insurance documentation.",
+     "apis": [
+      {
+       "name": "See Engagement Branded Car Insurance SE User",
+       "description": "This API accepts the customer’s SSN (verified via Swedish BankID), vehicle registration number, VIN, and/or insurance information as input. It then returns the end customer’s insurance engagement for branded car insurance products in Sweden, enabling the customer to view the details of their insurance engagement (for example, through a partner application). The insurance engagement may include details such as personal information, active insurance policies, invoicing information, coverage details, deductibles, mileage data, and insurance documentation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/coverage-search-motor-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/mobility/coverage-search-motor-insurance-sweden/",
+   "category": "mobility",
+   "name": "Coverage Search Motor Insurance Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Coverage Search Motor Insurance Sweden\nThe API provides coverage information of Swedish cars by registration number and claim date.\nThe API can be at the core of several solutions.\nThe API can be used for If customers, claims advisors or If Partners.\nSimple inputs, such as a carr egistration number.\nCheck if a given customer has coverage and what type.\nThe API gives the opportunity to provide detailed coverage information for an automatic registration process and further claims handling process. It covers all channels (phone, web or partner body shop).\nAPI usage Get policy coverage information of Swedish car by simply sending a request with registration number and claim date (can be also empty). If specified car has relevant coverage data to specific date, a coverage report is returned. If no claim date is specified then today's date will be considered. Main advantages of the API Can be used by multiple users The end-user is either a customer insured by If, a claims advisor or an If Partner. Easy to use Simply send a request with car registration number and get coverage report. Easy to integrate Motor API serves as a bridge with basic mapping logic, giving developers access to car coverage information, making it easy to integrate with other services. If provides full technical and business support during the onboarding process.",
+   "products": [
+    {
+     "id": "coverage-search-motor-insurance-se",
+     "name": "Coverage Search Motor Insurance SE",
+     "description": "The API provides coverage information of Swedish cars by registration number and claim date.",
+     "apis": [
+      {
+       "name": "Coverage Search Motor Insurance SE",
+       "description": "The API provides coverage information of Swedish cars by registration number and claim date."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/manage-payment-assignments-mobility-sweden",
+   "url": "https://developer.if-insurance.com/apis/mobility/manage-payment-assignments-mobility-sweden/",
+   "category": "mobility",
+   "name": "Manage Payment Assignments Mobility Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Payment Assignments Mobility Sweden\nSeamless invoicing flow to enable bundled invoicing.\nReceive details for what a specific customer should be invoiced for their insurances for the chosen period\nUpdate our data to ensure correct and up to date invoicing details are created\nCreating one invoice reflecting the full cost of owning a car for a seamless customer experience\nAn API to get invoice details and based on this create an invoice for the end customer\nOwning a car should be simple therefore we offer a lot of product bundles tailored for the customers needs and the car they own. To enhance the full bundled experience we have also made it possible to create a bundled invoice to decrease the paperwork and reflect the total cost of owning a car. When bundling the invoice the end customer gets one invoice including the cost of their insurances.\nFetch invoice details The API will provide details on what to invoice a specific customer for a chosen time period. In the response the bas cost for the insurance is included as well as additional costs and credits that might have occurred if the coverage has changed during current or previous periods. Update invoice details Apart from fetching invoice details from us you can also update for example end date for the bundle so that we can adjust and provide correct invoice details based on up to date information.",
+   "products": [
+    {
+     "id": "manage-payment-assignments-mobility-se",
+     "name": "Manage Payment Assignments Mobility SE",
+     "description": "The Manage payment assignment API is for financial partners selling products where the car insurance is a part of a product bundle. The underlying service calculates the correct amount to invoice. It's a complex process, involving retroactive premium changes, corrections, etc. The API covers selected parts of  the Swedish market.",
+     "apis": [
+      {
+       "name": "Manage Payment Assignments Mobility SE",
+       "description": "The Manage payment assignment API is for financial partners selling products where the car insurance is a part of a product bundle. The underlying service calculates the correct amount to invoice. It's a complex process, involving retroactive premium changes, corrections, etc. The API covers selected parts of  the Swedish market."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/manage-used-car-warranty-sweden",
+   "url": "https://developer.if-insurance.com/apis/mobility/manage-used-car-warranty-sweden/",
+   "category": "mobility",
+   "name": "Manage Used Car Warranty Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Used Car Warranty Sweden\nThis API enables car dealers to register Used Car Warranty products when selling a used car to a customer.\nThe API has three main operations for the car dealers to use: Check - To check if the vehicle is eligible for the Used Car Warranty product, and to get the price of the warranty. Register - To register a Used Car Warranty for a specific car Cancel - To cancel an active Used Car Warranty for a specific car",
+   "products": []
+  },
+  {
+   "id": "mobility/payment-protection-insurance",
+   "url": "https://developer.if-insurance.com/apis/mobility/payment-protection-insurance/",
+   "category": "mobility",
+   "name": "Payment Protection Insurance",
+   "meta_description": "When someone finances, for example, a car, there may be a need to increase the protection of the individual. Through payment protection insurance, it is possible to insure the fixed monthly cost connected to the financing",
+   "ai_description": "",
+   "page_text": "When someone finances, for example, a car, there may be a need to increase the protection of the individual. Through payment protection insurance, it is possible to insure the fixed monthly cost connected to the financing.\nPossible to integrate directly into your application that handles payment protection insurance.\nIncreased security for GDPR sensitive data\nIncreased data quality and automation\nPayment Protection Insurance API\nThis API product is for partners that have an agreement with If regarding a payment protection group insurance. Through this API product, it is possible to administer objects insured, the insurance products, and policyholders.\nThe Payment Protection API is a way for If's partners to create a Payment Protection Insurance (PPI) on behalf of an end customer, which can be a company or a private person. A PPI is an insurance on a group level where an individual or company is insured against not being able to pay their monthly fee for an object. The object could be anything, for example a loan or a leasing fee on a car.\nWhen someone finances, for example, a car, there may be a need to increase the protection of the individual. Through payment protection insurance, it is possible to insure the fixed monthly cost connected to the financing",
+   "products": [
+    {
+     "id": "payment-protection-insurance",
+     "name": "Payment Protection Insurance",
+     "description": "The API product is for partners with group insurances to admin objects insured, the insurance products and policy holders. It must be used for the Payment Protection Insurance product independently of the insurance portfolio. The API covers the Nordic countries.",
+     "apis": [
+      {
+       "name": "Payment Protection Insurance",
+       "description": "The API product is for partners with group insurances to admin objects insured, the insurance products and policy holders. It must be used for the Payment Protection Insurance product independently of the insurance portfolio. The API covers the Nordic countries."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/road-side-assistance",
+   "url": "https://developer.if-insurance.com/apis/mobility/road-side-assistance/",
+   "category": "mobility",
+   "name": "Road Side Assistance APIs and Events",
+   "meta_description": "APIs and Events to make customers life easier when road side assistance (RSA) is needed",
+   "ai_description": "",
+   "page_text": "Road Side Assistance APIs and Events\nMake customers life easier when road side assistance (RSA) is needed.\nHappier customers with smooth RSA experience\nGet status on customer's RSA case in close to real time\nData for analytics, reporting and management\nSeveral of If's mobility insurances cover Road Side Assistance (RSA) services and we have many RSA partners in the Nordics and Baltics. We offer a range of APIs and Event Products to make our common RSA customer journeys as smooth as possible. Getting the customer quickly back on the road is our main priority. RSA Case Data API This API enables partners to submit RSA case data to keep our customers informed in the process of getting their car towed. RSA Case Data Events Subscribing to this event product, partners can get RSA case data events in realtime to enable better customer journeys. If you are interested in our Event Products, please contact us directly. These APIs and Events are mainly for partners of If providing road side assistance or alarm central operations.\nAPIs and Events to make customers life easier when road side assistance (RSA) is needed",
+   "products": [
+    {
+     "id": "rsa-case-data-events",
+     "name": "RSA Case Data Events",
+     "description": "Exposes case data containing info about the roadside accident that has happened and services that are executed by the RSA companies.",
+     "apis": [
+      {
+       "name": "RSA Case Data Events",
+       "description": "This API exposes case data containing info about the roadside accident that has happened and services that are executed by the RSA companies."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/see-engagement-boat-sweden",
+   "url": "https://developer.if-insurance.com/apis/mobility/see-engagement-boat-sweden/",
+   "category": "mobility",
+   "name": "See Engagement Boat Sweden",
+   "meta_description": "This API retrieves a customer's active boat insurance, in Sweden.",
+   "ai_description": "",
+   "page_text": "This API retrieves a customer's active boat insurance.\nThe API provides a possibility for our partners to quickly search for boat insurance.\nThe API provides a possibility for our partners to quickly search for boat insurance for customers. Main consumers are partners within boat assistance services.\nIf Partner companies have the the need to quicky and reliably check if a customer has coverage for boat insurance. This is required while providing assistance to the customers. This API can help with that, by simply inputing a SSN or policy number.\nThis API retrieves a customer's active boat insurance, in Sweden.",
+   "products": [
+    {
+     "id": "see-engagement-boat-se",
+     "name": "See Engagement Boat SE",
+     "description": "The API retrieves the active boat insurance of a waypoint customer - The search can be made for SSN, or by policy number.",
+     "apis": [
+      {
+       "name": "See Engagement Boat SE",
+       "description": "The API retrieves the active boat insurance of a waypoint customer. The search can be made by SSN or policy number."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobility/workshop-locator-motor",
+   "url": "https://developer.if-insurance.com/apis/mobility/workshop-locator-motor/",
+   "category": "mobility",
+   "name": "Workshop Locator Motor API",
+   "meta_description": "This API helps route vehicles to the preferred workshop for a given claims situation, in Norway, Sweden or Finland.",
+   "ai_description": "",
+   "page_text": "This API helps route vehicles to the preferred workshop for a given claims situation.\nFind the best workshop for the particular case\nSmart use of data, to find corresponding workshops.\nProvides driving distance and time between point of origin and all available workshops.\nNeed to find the best workshop for a specific case? We combine the vehicle data, the location specified and what has happened (type of accident) and find corresponding workshops.\nThe workshop data and our network of partners is kept up to date by our awesome purchasers within cost control motor. In the response we will not only return the workshops with the contact details, location and what services they provide to customers and vehicles, but also actual driving distance and time. Multiple workshop service types are returned in the response, for example: If searching for a car that has had a collision claim will not only return workshops that can handle the most likely scenario, but also include glass workshops and mechanical workshops.\nThis API helps route vehicles to the preferred workshop for a given claims situation, in Norway, Sweden or Finland.",
+   "products": [
+    {
+     "id": "workshop-locator-motor",
+     "name": "Workshop Locator Motor",
+     "description": "Provides information to route vehicles to the preferred workshop for a given claims situation.",
+     "apis": [
+      {
+       "name": "Workshop Locator Motor Nordic",
+       "description": "This API provides information to route vehicles to the preferred workshop for a given claims situation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other/coverage-search-animal-insurance",
+   "url": "https://developer.if-insurance.com/apis/other/coverage-search-animal-insurance/",
+   "category": "other",
+   "name": "Coverage Search Animal Insurance",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Coverage Search Animal Insurance\nThis Nordic API provides Animal insurance and coverage information for a given customer.\nWith inputing social security/policy number and a claim date, this API will return relevant information\nThis API enables our partners to provide a simple customer journey to their customers\nThe Coverage search Animal Insurance API helps streamline the processes related to pet insurance coverage, providing fast and secure access to essential data. This API covers all Nordic countries.\nWhen a customer is contacting a vet clinic, the clinic can quickly identify the customer and coverage for the animal in an easy way. The user just enters a SSN or insurance policy number and a date (claim, incident or similar), and the API will respond with a Yes or No for different coverages, and a set of other relevant insurance information, enabling the clinic to provide the best possible customer journey. This API helps increase the speed for an Animal/Vet clinic partner, when dealing with customers – or loved animals. We know that when a dear animal has fallen ill or been in an accident, we need to provide fast and secure services to help them out and this is a part of the solution",
+   "products": [
+    {
+     "id": "coverage-search-animal-insurance",
+     "name": "Coverage Search Animal Insurance",
+     "description": "This API will take SSN or Policy Number and claims date as input and return basic information on related customer, animal and the animal coverages.",
+     "apis": [
+      {
+       "name": "Coverage Search Animal Insurance",
+       "description": "This API will take SSN or Policy Number and claims date as input and return basic information on related customer, animal and the animal coverages."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other/manage-insrt-ancillary-insurances",
+   "url": "https://developer.if-insurance.com/apis/other/manage-insrt-ancillary-insurances/",
+   "category": "other",
+   "name": "Manage Insrt Ancillary Insurances",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Insrt Ancillary Insurances\nThis API suite enables B2B2C distribution of tailored insurance products.\nOffer a variety of competitive motor insurance to your customers tailored to your needs\nInsurance solutions tailored for the sharing economy,\nFlexible pricing and seamless processes to ensure customers have the right coverage\nEmpowering customers to customize their coverage\nSeamlessly bundle ancillary insurance with your offerings at the point of sale, transforming insurance into an integral part of your product — across every market you serve\nOur insrt ancillary insurances allow B2B2C distribution of tailored insurance products to be offered as part of your product or service whether it is coverage for the sharing economy or deductible reduction as a value-added service. The process can be tailored to your purchase flow and customer journey with a pricing model tailored to your sector. The insurances are available in all Nordic countries and outside depending on contract model. How it works The purchase trips on short term rental policy APIs is the product tailored for the sharing economy. Each API call represents a rental or sharing occasion that is sent at the time of purchase. Coverages and add-on such as assistance and deductible reduction add-ons can be tailored in a discussion as we shape the targeted offering. The warranty APIs allow you to embed warranty sales as part of your digital purchase process. The purchase deductible reduction API purchases a deductible reduction based on the targeted end and start date. The product can be tailored in discussion with us as well as targeted reduction level. The get deductible reduction transaction API retrieves historic purchases based on a customer policy and targeted purchase period or transaction.",
+   "products": [
+    {
+     "id": "manage-insrt-ancillary-insurances",
+     "name": "Manage Insrt Ancillary Insurances",
+     "description": "This API is used to manage insurances and insurance purchases from Insrt.",
+     "apis": [
+      {
+       "name": "Manage Insrt Ancillary Insurances",
+       "description": "This API is used to manage insurances and insurance purchases from Insrt."
+      }
+     ]
+    },
+    {
+     "id": "manage-insrt-warranty-insurances",
+     "name": "Manage Insrt Warranty Insurances",
+     "description": "This API enables quotes and purchases of warranties insurance products. Input is vehicle information such as registration number and insurance tier to purchase along with retailer concept identifiers.",
+     "apis": []
+    }
+   ]
+  },
+  {
+   "id": "other/manage-signify-signing-requests",
+   "url": "https://developer.if-insurance.com/apis/other/manage-signify-signing-requests/",
+   "category": "other",
+   "name": "Manage Signify Signing Requests",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Signify Signing Requests\nThe purpose of this API is to expose functionality of the Signify application to PSI\nPower of Attorney visible for Fronten users\nMake it possible for the PSI-users to send Power Of Attorneys that are visible for all users of Fronten\nManage Signify Signing Requests API: Can send Signify reminders Can cancel a Power Of Attorney The API integrates the Signify functionality in PSI",
+   "products": [
+    {
+     "id": "manage-signify-signing-requests",
+     "name": "Manage Signify Signing Requests",
+     "description": "API for sending reminders and cancel request on ongoing/active power of attorneys.",
+     "apis": [
+      {
+       "name": "Manage Signify Signing Requests",
+       "description": "API for sending reminders and cancel request on ongoing/active power of attorneys."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/accident-and-illness-apis-sweden",
+   "url": "https://developer.if-insurance.com/apis/person/accident-and-illness-apis-sweden/",
+   "category": "person",
+   "name": "Accident and Illness APIs Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Accident and Illness APIs Sweden\nThese API products offer the possibility to get a price (quote) and buy the Accident insurance product or the more extensive Sickness and accident product.\nJust add social security number, enter e-mail address. Answer a few questions and you will be presented with a price and possibility to buy the insurance\nThis Quote and Buy APO is suitable for customers who know what they need and just want to get a price and hopefully buy the product\nDifference Between Accident and Accident/Illness Insurance\nYou can choose how comprehensive you want your insurance to be.\nAccident Insurance Covers injuries caused by sudden, unforeseen accidents — for example, falling, slipping, or crashing with a bike or scooter. It does not cover illnesses or conditions that develop over time. Sickness and Accident Insurance Includes everything in accident insurance plus coverage for illnesses that affect your health or ability to work, such as long-term diseases or medical conditions. Get started today —connect with our developer portal or request access to the sandbox environment. Learn more about the products Accident , Sickness and Accident and Vuxen 50+ försäkring | Gäller vid olycksfall och sjukdom - If (in Swedish).",
+   "products": [
+    {
+     "id": "buy-accident-insurance-se",
+     "name": "Buy Accident Insurance SE",
+     "description": "Our Accident Insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows.",
+     "apis": [
+      {
+       "name": "Buy Accident Insurance SE",
+       "description": "Our Accident Insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows."
+      }
+     ]
+    },
+    {
+     "id": "buy-accident-and-illness-insurance-se",
+     "name": "Buy Accident and Illness Insurance SE",
+     "description": "Our Accident & Illness Insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows.",
+     "apis": [
+      {
+       "name": "Buy Accident and Illness Insurance SE",
+       "description": "Our Accident & Illness Insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows."
+      }
+     ]
+    },
+    {
+     "id": "buy-adult-50-plus-accident-and-illness-insurance-se",
+     "name": "Buy Adult 50 Plus Accident and Illness Insurance SE",
+     "description": "Our Adult 50 plus Accident and illness insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows.",
+     "apis": [
+      {
+       "name": "Buy Adult 50 Plus Accident and Illness Insurance SE",
+       "description": "Our Adult 50 plus Accident and illness insurance API lets you generate real-time quotes and complete purchases through a simple, well-documented endpoint structure. Designed to minimize integration time and maximize flexibility in your digital flows."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/annual-travel-quote-and-buy-api-norway",
+   "url": "https://developer.if-insurance.com/apis/person/annual-travel-quote-and-buy-api-norway/",
+   "category": "person",
+   "name": "Annual Travel Quote & Buy APIs Norway",
+   "meta_description": "These APIs quickly get a price quote to purchase an Annual Travel Insurance product.",
+   "ai_description": "",
+   "page_text": "Annual Travel Quote & Buy APIs Norway\nThese APIs quickly get a price quote for an Annual Travel Insurance product.\nIncludes cancellation insurance\nCovers cancellations, and it applies to all types of travel from the time you leave your home address.\nif icon coverage flight-cancelled\nAccidents damage insurance with low deductibles.\nValid on travels abroad up to 45 consecutive days. Unlimited amount of travel days in Norway\nProviding excellent customer journey\nThe API provides a possibility for our partner's customers to quickly get a price quote and purchase the product Annual Travel Insurance. Main API consumers could be partners within travel. Meanwhile, we are of course open to partners within other fields integrating and utilizing the Travel Insurance API.\nBenefits Travel Insurance includes cancellation insurance, and applies to all types of travel from the time you leave your home address. Accidental damage insurance with a deductible of NOK 2 000 per item, maximum NOK 4 000 per claim Valid on travels abroad up to 45 consecutive days. Unlimited amount of travel days in Norway. The API is simple to use, enabling the partner to provide an excellent customer journey.\nThese APIs quickly get a price quote to purchase an Annual Travel Insurance product.",
+   "products": [
+    {
+     "id": "buy-annual-travel-insurance-no",
+     "name": "Buy Annual Travel Insurance NO ",
+     "description": "The API allows Norwegian private market customers to buy annual travel insurance. Version 1 only supports use cases where the customer herself buys insurance, i.e. no support for agents buying insurance on behalf of the customer",
+     "apis": [
+      {
+       "name": "Buy Travel Insurance NO",
+       "description": "The API allows Norwegian private market customers to buy annual travel insurance. Version 1 only supports use cases where the customer herself buys insurance, i.e. no support for agents buying insurance on behalf of the customer."
+      },
+      {
+       "name": "List Coverage Items Travel Insurance NO",
+       "description": "The API lists coverage item descriptions for the annual travel insurance coverage options."
+      },
+      {
+       "name": "Quote Travel Insurance NO",
+       "description": "The API calculates prices for annual travel insurance for the Norwegian private market. Version 1 only supports use cases where the customer herself asks for a quote, i.e. no support for agents creating a quote on behalf of the customer. As for payment, version 1 supports electronic payment agreements between the customer and If with regular invoices, i.e. no support for upfront payment (credit card or Vipps) or invoicing the partner rather than the customer."
+      }
+     ]
+    },
+    {
+     "id": "quote-annual-travel-insurance-no",
+     "name": "Quote Annual Travel Insurance NO",
+     "description": "The API calculates prices for annual travel insurance for the Norwegian private market. Version 1 only supports use cases where the customer herself asks for a quote, i.e. no support for agents creating a quote on behalf of the customer. As for payment, version 1 supports electronic payment agreements between the customer and If with regular invoices, i.e. no support for upfront payment (credit card or Vipps) or invoicing the partner rather than the customer.",
+     "apis": [
+      {
+       "name": "List Coverage Items Travel Insurance NO",
+       "description": "The API lists coverage item descriptions for the annual travel insurance coverage options."
+      },
+      {
+       "name": "Quote Travel Insurance NO",
+       "description": "The API calculates prices for annual travel insurance for the Norwegian private market. Version 1 only supports use cases where the customer herself asks for a quote, i.e. no support for agents creating a quote on behalf of the customer. As for payment, version 1 supports electronic payment agreements between the customer and If with regular invoices, i.e. no support for upfront payment (credit card or Vipps) or invoicing the partner rather than the customer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/buy-child-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/person/buy-child-insurance-sweden/",
+   "category": "person",
+   "name": "Buy Child Insurance Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "This API product offer the possibility to get a price (quote) and buy the Child insurance product.\nJust add a social security number for the child and for the guardian, enter e-mail address, answer a few questions, and you will be presented with a price and possibility to buy the insurance.\nThis Quote and Buy API is suitable for customers who know what they need and just want to get a price quote and hopefully buy the product\nLife can change in a moment. A child insurance ensures that your child gets the right support—medically and financially—if something unexpected happens. It provides security for you as a parent/guardian, and protection for your child’s future. With one simple decision today, you safeguard their possibilities tomorrow. Learn more about the Child product (in Swedish)",
+   "products": [
+    {
+     "id": "buy-child-insurance-se",
+     "name": "Buy Child Insurance SE",
+     "description": "Quote and buy API for the Child product for BA private in Sweden.",
+     "apis": [
+      {
+       "name": "Buy Child Insurance SE",
+       "description": "Quote and buy API for the Child product for BA private in Sweden."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/buy-health-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/person/buy-health-insurance-sweden/",
+   "category": "person",
+   "name": "Buy Health Insurance Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "This API product offers the possibility to get a price (quote) and buy the Health insurance product.\nJust add a social security number, enter e-mail address, answer a few questions, and you will be presented with a price quote and possibility to buy the insurance\nThis Quote and Buy API is suitable for customers who know what they need and just want to get a price quote and hopefully buy the product\nWith our private health insurance, you are guaranteed that the care and treatment you need will begin within 14 working days. Learn more about the Health product (in Swedish)",
+   "products": [
+    {
+     "id": "buy-health-insurance-se",
+     "name": "Buy Health Insurance SE",
+     "description": "Quote and buy API for the Health product for BA private in Sweden.",
+     "apis": [
+      {
+       "name": "Buy Health Insurance SE",
+       "description": "Quote and buy API for the Health product for BA private in Sweden."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/buy-life-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/person/buy-life-insurance-sweden/",
+   "category": "person",
+   "name": "Buy Life Insurance Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "This API product offers the possibility to get a price (quote) and buy the Life insurance product.\nJust add a social security number, enter e-mail address, answer a few questions and you will be presented with a price and possibility to buy the insurance\nThis Quote and Buy API is suitable for customers who know what they need and just want to get a price quote and hopefully buy the product\nYou chose the Life insurance with care for those who will need to manage without you if you die prematurely. A life insurance works like a financial cushion that eases the situation for your loved ones. Learn more about the Life product (in Swedish)",
+   "products": [
+    {
+     "id": "buy-life-insurance-se",
+     "name": "Buy Life Insurance SE",
+     "description": "Quote and buy API for the Life product for BA private in Sweden.",
+     "apis": [
+      {
+       "name": "Buy Life Insurance SE",
+       "description": "Quote and buy API for the Life product for BA private in Sweden."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/buy-bankid",
+   "url": "https://developer.if-insurance.com/apis/person/child-insurance-apis-norway/buy-bankid/",
+   "category": "person",
+   "name": "Buy Child Insurance APIs Norway BankID",
+   "meta_description": "Get Quote & Buy APIs are easy to implement and use. These APIs require BankId.",
+   "ai_description": "",
+   "page_text": "Buy Child Insurance APIs Norway with BankID\nRequest Quote and Buy Child Insurance APIs in Norway, User authenticated with BankID\nGet Quote & Buy APIs are easy to implement and use. These APIs require BankId.",
+   "products": [
+    {
+     "id": "buy-child-insurance-no-bankid",
+     "name": "Buy Child Insurance NO BankID",
+     "description": "Get a quote and buy Child insurance for born children, under the age of 18. Used when end users are authenticating directly to the APIs with BankID.",
+     "apis": [
+      {
+       "name": "Buy Child Insurance NO",
+       "description": "This API supports users in purchasing a Child insurance for born children, under the age of 18. Scope child.buy.no allowed authenticators are Norwegian Bank Id"
+      },
+      {
+       "name": "Request Quote Child Insurance NO",
+       "description": "This API offers quotes for child insurance, for one or several children, for children under 18 years old. The quote can be requested for children that have not been born yet."
+      }
+     ]
+    },
+    {
+     "id": "child-insurance-no-support-apis",
+     "name": "Child Insurance NO Support APIs",
+     "description": "List and Read Child insurance for born children, under the age of 18. Used when end users are authenticating directly to the API.",
+     "apis": [
+      {
+       "name": "List Coverage Items Child Insurance NO",
+       "description": "This API list coverage items for both Request quote and Buy Child Insurance NO."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/buy-low-loa",
+   "url": "https://developer.if-insurance.com/apis/person/child-insurance-apis-norway/buy-low-loa/",
+   "category": "person",
+   "name": "Buy Child Insurance APIs Norway",
+   "meta_description": "These Get Quote & Buy APIs are easy that are easy to implement and use.",
+   "ai_description": "",
+   "page_text": "Buy Child Insurance APIs Norway\nGet Quotes and Buy Child Insurance APIs to be used when a lower level of assurance is sufficient for calculating quotes.\nGet Quote & Buy Child Insurance Norway APIs\nThese Get Quote & Buy APIs are easy that are easy to implement and use.",
+   "products": [
+    {
+     "id": "request-quote-child-insurance-no-system",
+     "name": "Request Quote Child Insurance NO System",
+     "description": "Get a quote and buy Child insurance for born children, under the age of 18. Used when API calls are used system to system.",
+     "apis": [
+      {
+       "name": "List Coverage Items Child Insurance NO",
+       "description": "This API list coverage items for both Request quote and Buy Child Insurance NO."
+      },
+      {
+       "name": "Request Quote Child Insurance System NO",
+       "description": "The API calculates prices for child insurance for the Norwegian private market. Version 1 only supports use cases where the customer herself asks for a quote, i.e. no support for agents creating a quote on behalf of the customer. A quote may be for one or several children and the children may or not be born yet for the quote to be created."
+      }
+     ]
+    },
+    {
+     "id": "buy-child-insurance-no-standalone",
+     "name": "Buy Child Insurance NO Standalone",
+     "description": "Buy Child insurance for born children, under the age of 18. Can be combined with Request Quote APIs with weak authentication.",
+     "apis": [
+      {
+       "name": "Buy Child Insurance NO",
+       "description": "This API supports users in purchasing a Child insurance for born children, under the age of 18. Scope child.buy.no allowed authenticators are Norwegian Bank Id"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/health-insurance",
+   "url": "https://developer.if-insurance.com/apis/person/health-insurance/",
+   "category": "person",
+   "name": "Health Insurance API",
+   "meta_description": "Faster, smoother and more secure way for health care providers, to check what is covered in a person's insurance policy",
+   "ai_description": "",
+   "page_text": "Faster, smoother and more secure way for health care providers, to check what is covered in a person's insurance policy.\nJust provide a valid policy number\nChecks if for example physical therapy, medical examination or psychology is covered.\nThe Check Health Coverage API enables health care providers (partners) to automatically check if certain types of health-related services are covered in an insurance policy. The coverage can be requested with a very reduced set of information: Input is the If policy number (SP-number or similar) Output is the yes/no for the coverage type(s) relevant for the particular partner\nFaster, smoother and more secure way for health care providers, to check what is covered in a person's insurance policy",
+   "products": [
+    {
+     "id": "check-health-coverage",
+     "name": "Check Health Coverage",
+     "description": "This API Product returns basic coverage information for health insurances, for example physical therapy, medical examination or psychology coverages, from If P&C given a specific insurance number. The API is covering If's Norwegian, Swedish and Danish market.",
+     "apis": [
+      {
+       "name": "Check Health Coverage",
+       "description": "This API Product returns basic coverage information for health insurances, for example physical therapy, medical examination or psychology coverages, from If P&C given a specific insurance number. The API is covering If's Norwegian, Swedish and Danish market."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/manage-direct-compensation-claims-person-finland",
+   "url": "https://developer.if-insurance.com/apis/person/manage-direct-compensation-claims-person-finland/",
+   "category": "person",
+   "name": "Manage Direct Compensation Claims Person Finland",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Direct Compensation Claims Person Finland\nInstant confirmation at checkout on whether the treatment costs is covered\nPartners ensure an easy payment flow for their customer\nIf aims to ensure that customers who fall ill can focus entirely on their recovery instead of dealing with lengthy forms to claim compensation. The Manage Direct Compensation Claims Person API enables If’s Finnish healthcare partners to request compensation for treatment costs directly at the clinic’s checkout.\nThe targeted segment for this service is Finnish indivduals with a private health insurance, covering both accident and illness. Unique Selling Points Customers who fall ill or have an accident receive instant confirmation at checkout on whether their treatment costs are covered by If. Partners can offer a seamless checkout experience while ensuring they receive direct compensation for treatments provided to If’s customers. The Manage Direct Compensation Claims Person FI API is available to all current and future If healthcare partners, both for in-clinic services and their supplementary digital platforms (e.g., mobile apps). Use Cases An adult falls ill, and the clinic clerk requests compensation for the treatment. If fully covers the claim, so the customer doesn’t have to pay. A child has an accident, and the clinic clerk requests compensation for the treatment. If fully covers the claim, so the customer doesn’t have to pay. An adult falls ill, and the clinic clerk requests compensation for the treatment. If provides partial compensation, and the customer pays the deductible at the clinic.",
+   "products": [
+    {
+     "id": "manage-direct-compensation-claims-person-fi",
+     "name": "Manage Direct Compensation Claims Person FI",
+     "description": "API for direct compensation claims intake by health care partners in Finland. Clinics will have this as part of their systems to validate, and/or register claims and compensations for given customers SSN.",
+     "apis": [
+      {
+       "name": "Manage Direct Compensation Claims Person FI",
+       "description": "API for direct compensation claims intake by health care partners in Finland. Clinics will have this as part of their systems to validate, and/or register claims and compensations for given customers SSN."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/personal-insurance-recommendation",
+   "url": "https://developer.if-insurance.com/apis/person/personal-insurance-recommendation/",
+   "category": "person",
+   "name": "Personal Insurance Recommendation",
+   "meta_description": "Enhance Norwegian customers knowledge about their personal insurance need. By adding a few inputs, the customer will get a recommendation suited for their life situation.",
+   "ai_description": "",
+   "page_text": "Personal Insurance Recommendation Norway\nEnhance Norwegian customers knowledge about their personal insurance need. By adding a few inputs, the customer will get a recommendation suited for their life situation.\nOffers a personal recommendation based on the customer’s life situation\nMakes sure that your customers are correctly insured\nThere are 3 APIs in our personal insurance recommendation API family\nThe major ones are: 1. Admin-Recommendation-PersonalInsurance-NO 2. AnalyseImpact-PersonalInsurance-NO The third one is the support API ListOptions-PersonalInsurances-NO that provides options for a couple of the input parameters to the two major APIs. Admin-Recommendation-PersonalInsurance-NO The API requires the customer to authenticate with Bank ID, and then allows the customer to submit certain parameters (see input data below), and to receive recommended personal insurance products and insurance amounts. Input data The options for the input data fall into two categories: The input parameters for the education level, marital status and number of children accept a defined set of values that are specified in the swagger for the API. The input parameters for the work category, income, and total household debt ranges also accept a limited set of values. The values are, however, not predefined, rather the ListOptions-PersonalInsurances-NO API returns the options for each of the input parameters. AnalyseImpact-PersonalInsurance-NO The API helps the customer understand how they are affected in case something bad happens and how personal insurance reduces the economic impact: You may calculate the recommended life insurance amount based on the annual income and total household debt. You may calculate the loss of income in case the customer is no longer able to work, taking into account payouts from public welfare and other sources - when insured and when not insured. Input data The options for the input data fall into three categories: The input parameter for the age is any positive number. The input parameter for the number of children accepts a defined set of values that are specified in the swagger for the API. The input parameter for the income and total household debt ranges also accepts a limited set of values. The values aret, however, not predefined, rather the ListOptions-PersonalInsurances-NO API returns the options for each of the input parameters.",
+   "products": [
+    {
+     "id": "analyse-impact-personal-insurance-no",
+     "name": "Analyse Impact Personal Insurance NO",
+     "description": "This API will enable analysis of lack of income if something happens and you are unable to work. It will take age, income range, marital status and number of children as input.  The analysis will take in to account if you are insured or not and will cover the first year. Oauth scope: person.analyseimpact.no",
+     "apis": [
+      {
+       "name": "Analyse Impact Personal Insurance NO",
+       "description": "This API will enable analysis of lack of income if something happens and you are unable to work. It will take age, income range, marital status and number of children as input.  The analysis will take in to account if you are insured or not and will cover the first year. Oauth scope: person.analyseimpact.no"
+      }
+     ]
+    },
+    {
+     "id": "list-options-personal-insurances-no",
+     "name": "List Options Personal Insurances NO",
+     "description": "This API lists options such as; income range, debt range and/or work category as input parameters for the related personal insurance APIs in Norway (Admin Personal Insurances NO and Analyse Impact Personal Insurance NO). Oauth scope: person.listoptions.no",
+     "apis": [
+      {
+       "name": "List Options Personal Insurances NO",
+       "description": "This API lists options such as; income range, debt range and/or work category as input parameters for the related personal insurance APIs in Norway (Admin Personal Insurances NO and Analyse Impact Personal Insurance NO). Oauth scope: person.listoptions.no"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/pregnancy-insurance-apis-sweden",
+   "url": "https://developer.if-insurance.com/apis/person/pregnancy-insurance-apis-sweden/",
+   "category": "person",
+   "name": "Pregnancy Insurance APIs Sweden",
+   "meta_description": "Enable your users and customers to sign up for a pregnancy insurance from If. Choose between the free basic coverage or the more comprehensive paid option.",
+   "ai_description": "",
+   "page_text": "Pregnancy Insurance APIs Sweden\nEnable your users and customers to sign up for a pregnancy insurance from If. Choose between the free basic coverage or the more comprehensive paid option.\nJust add social security number, e-mail and due date and this API will create a pregnancy insurance of your choice (free or paid pregnancy)\nCreate excellent customer journeys including pregnancy insurance from if\nOffer your customers a Free or Premium Pregnancy Insurance from If\nThis API Enables your users to sign up for both the free pregnancy product and the more extensive paid version of the product.\nDifference Between Free and Extended Pregnancy Insurance You can choose how comprehensive you want your pregnancy insurance to be. Basic Coverage – Free The simplest option is a basic plan that includes accident insurance for the expectant mother. It also provides compensation if the mother or partner passes away due to an accident. You can sign up as soon as you know you’re pregnant. This option is free of charge. Coverage starts the day after you register. Extended Coverage – Paid The extended pregnancy insurance offers more protection for the expectant mother and also covers the unborn baby — in fact, it’s the only insurance available for an unborn child. This plan includes compensation for certain congenital conditions and lasting complications caused by an accident or illness. You can sign up early in your pregnancy. The extended coverage costs SEK 1,150. Coverage starts the day after payment is made, provided there are no signs that labor has begun. Compensation can be paid if the baby is born at week 22+0 or later.",
+   "products": [
+    {
+     "id": "register-pregnancy-insurance-se",
+     "name": "Register Pregnancy Insurance SE",
+     "description": "Enable your users and customers to sign up for a pregnancy insurance from If – choose between the free basic coverage or the more comprehensive paid option. Available through your own online and/or offline channels.",
+     "apis": [
+      {
+       "name": "Register Pregnancy Insurance SE",
+       "description": "Enable your users and customers to sign up for a pregnancy insurance from If – choose between the free basic coverage or the more comprehensive paid option. Available through your own online and/or offline channels."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/report-travel-claims",
+   "url": "https://developer.if-insurance.com/apis/person/report-travel-claims/",
+   "category": "person",
+   "name": "Report Travel Claims API",
+   "meta_description": "API for partners to report claims directly from customers in need.",
+   "ai_description": "",
+   "page_text": "This API helps If partners to intake claims directly from customers.\nThis API enables partners to securely and promptly transmit claims data to If by providing a set of specified parameters.\nPartners only need to integrate to this API from If, no need to develop and maintain internal systems or interfaces.\n​ Faster, more secure and smoother service for those in need and If partners\nTravelling customers on business and leasure trips have high expectations in case they need help while travelling. The variety of incidents stretches from sickness to lost luggage. Especially when becoming sick when travelling the needs of the customers might be very urgent. In order to meet the needs and expectations of customers If works with external partners to guide and help them to the right health service and provide treatment. To simplify the work for our partners when registering travel claims at If the \"Register travel claim\" api is provided.\nBy using the \" Register travel claim\" API partners only need to register a certain set of data to the api which will then route the claim to the correct claim system in If. The partner will use a set of data parameters such as SSN to check coverage and register the claim and all claim details in the relevant If systems. Our partners integrate to only one API from If, which we maintain, develop further with more data, removing the need of maintenance and development on our partners side. Using the \" Register travel claim\" API will lead to better customer journey for claimants due to the immediate registration of claims into integrated systems. Hence, if the customer is first in contact with the partner to register the claim, the claim will very quickly be available to If, the partner and customer in If's digital channels.\nAPI for partners to report claims directly from customers in need.\nDigital baording card and sunglasses",
+   "products": [
+    {
+     "id": "report-travel-claims",
+     "name": "Report Travel Claims",
+     "description": "Travel claims intake API for the partner handling claims intake directly with customers",
+     "apis": [
+      {
+       "name": "Report Travel Claims",
+       "description": "The Report travel claims API helps If partner to handle claims intake directly with customers. OAuth scope: claims.travel.report"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/travel-insurance-apis-finland",
+   "url": "https://developer.if-insurance.com/apis/person/travel-insurance-apis-finland/",
+   "category": "person",
+   "name": "Travel Insurance  APIs Finland",
+   "meta_description": "The API provides a possibility for our partner's customers to quickly get a price quote for the Travel Insurance product.",
+   "ai_description": "",
+   "page_text": "These Quote & Buy APIs enable our partners to integrate instant travel insurance quotes and easy purchase functionality into their platforms.\nIf's travel assistance helps by phone 24/7\nThis API enables our partners to provide an excellent customer journey to their customers.\nFor a smooth integration, If offers technical and business support during the process.\nPrice quote for Travel Insurance\nThe API provides a possibility for our partner's customers to quickly get a price quote & buy the Travel Insurance product. Main API consumers could be partners within travel. Meanwhile, we are of course open to partners within other fields integrating and utilizing the Travel Insurance API.\nThe travel insurance includes : Treatment cost for illness and accidents abroad without deductible or upper limit. Injuries during sports activities while travelling If's travel assistance helps by phone 24/7 Costs in case of crisis and ambulance flights To Finland in emergencies Cancellation or interruption of a trip abroad – we will reimburse prepaid or additional travel and accommodation costs Cancellation or interruption of a domestic trip – we will reimburse prepaid or additional travel and accommodation costs Benefits The API is simple to use, enabling the partner to provide an excellent customer journey. Onboarding process to this API You can test the API before going to production and If offers technical and businees support support during the integration for a smooth onboradign process.\nRequest Quote Travel Insurance Finland API\nThe API provides a possibility for our partner's customers to quickly get a price quote for the Travel Insurance product.",
+   "products": [
+    {
+     "id": "request-quote-travel-insurance-fi",
+     "name": "Request Quote Travel Insurance FI",
+     "description": "The API provides a possibility for our partner's customers to quickly get a price quote for the Travel Insurance product.\nMain API consumers could be partners within travel. Meanwhile, we are of course open to partners within other fields integrating and utilizing the Travel Insurance API.",
+     "apis": [
+      {
+       "name": "List Coverage Items Travel Insurance FI",
+       "description": "The API lists coverage item descriptions for Travel product in Finland."
+      },
+      {
+       "name": "Request Quote Travel Insurance FI",
+       "description": "The API provides a possibility for our partner's customers to quickly get a price quote for the Travel Insurance product.\nMain API consumers could be partners within travel. Meanwhile, we are of course open to partners within other fields integrating and utilizing the Travel Insurance API."
+      }
+     ]
+    },
+    {
+     "id": "buy-travel-insurance-fi-system",
+     "name": "Buy Travel Insurance FI System",
+     "description": "Will be used to buy travel insurances that have been calculated using the Request Quote Travel Insurance FI API. This API uses System Authentication.",
+     "apis": [
+      {
+       "name": "Buy Travel Insurance FI System",
+       "description": "Will be used to buy travel insurances that have been calculated using the Request Quote Travel Insurance FI API. This API uses System Authentication."
+      },
+      {
+       "name": "List Coverage Items Travel Insurance FI",
+       "description": "The API lists coverage item descriptions for Travel product in Finland."
+      },
+      {
+       "name": "Request Quote Travel Insurance FI",
+       "description": "The API provides a possibility for our partner's customers to quickly get a price quote for the Travel Insurance product.\nMain API consumers could be partners within travel. Meanwhile, we are of course open to partners within other fields integrating and utilizing the Travel Insurance API."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "person/travel-insurance",
+   "url": "https://developer.if-insurance.com/apis/person/travel-insurance/",
+   "category": "person",
+   "name": "Travel Insurance APIs",
+   "meta_description": "This API enable partners to check a persons travel coverage and if it is active at a specific date.",
+   "ai_description": "",
+   "page_text": "Check a persons travel coverage and if it is active at a specific date for an individual.\nJust add a social security/policy number and a claim date and this API will return relevant information.\nThis API enables our partners to provide an excellent customer journey to their customers.\n​ Faster, more secure and smoother service for those in need.\nThis API helps increase the speed of Nordic travel partners when dealing with customers in need. If customers that have fallen ill, been subject to robberies/thefts or encountered other insurance needs while abroad, need fast and secure services to help them.\nWhen customers contact a travel call center, the agent can quickly identify the customer and travel coverage using standard procedures. Based on SSN or insurance policy number, the API will respond with a Yes or No for coverage, and a list of valid policies for the person or company.\nThis API enable partners to check a persons travel coverage and if it is active at a specific date.\nDigital baording card and sunglasses",
+   "products": [
+    {
+     "id": "coverage-search-travel-insurance",
+     "name": "Coverage Search Travel Insurance",
+     "description": "Check travel coverage for a given SSN or Policy number at a certain incident date.",
+     "apis": [
+      {
+       "name": "Coverage Search Travel Insurance",
+       "description": "This APi will return travel coverage for a given SSN or Policy number at a certain incident date."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/branded-property-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/property/branded-property-insurance-sweden/",
+   "category": "property",
+   "name": "Branded Property Insurance APIs",
+   "meta_description": "Power your applications with info on home insurances and contribute to better housing economics for your customers by integration with If Branded Property Insurance API.",
+   "ai_description": "",
+   "page_text": "Branded Property Insurance APIs\nPower your applications with info on home insurances and contribute to better housing economics for your customers.\nCustomers get info on home insurances from If in the partner's chosen channel.\nAPI partners provide a more holistic overview of customers' housing economics\nGet access to basic customer- and property insurance information.\nThis API Product returns basic customer- and property insurance information for If P&C's and the API Customer's common customers. This API Product is for API Customers that have a partnership with If P&C which implies that we have common customers. The solution Get Common Customers (SE) must be used to get the SSN of common customers and use this as input to this API.\nPower your applications with info on home insurances and contribute to better housing economics for your customers by integration with If Branded Property Insurance API.",
+   "products": [
+    {
+     "id": "see-engagement-property",
+     "name": "See Engagement Property",
+     "description": "This API returns basic customer- and property insurance information for If P&C's and the API Customer's common customers. The API is for API Customers that have a partnership with If P&C which implies that we have common customers. The solution Get Common Customers (SE) must be used to get the SSN of common customers and use this as input to this API.",
+     "apis": [
+      {
+       "name": "See Engagement Branded Property",
+       "description": "This API Product returns basic customer- and property insurance information for If P&C's and the API Customer's common customers. This API Product is for API Customers that have a partnership with If P&C which implies that we have common customers. The solution Get Common Customers (SE) must be used to get the SSN of common customers and use this as input to this API."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/buy-try-on-property-insurance-private-sweden",
+   "url": "https://developer.if-insurance.com/apis/property/buy-try-on-property-insurance-private-sweden/",
+   "category": "property",
+   "name": "Buy Try-on Property Insurance Private Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Buy Try-on Property Insurance Private SE\nThis API creates a short term, try on insurance for the property products of home and villa.\nProvision temporary insurance policies\nWith configurable durations and coverage scopes.\nif icon coverage building-damage\nAccess real-time pricing and eligibility checks\nBased on customer and property data.\nVia secure endpoints with full audit logging.\nTry-On Insurance API for Villa & Home Products – Fast, Flexible, Developer-Ready\nAccelerate your insurance offerings with our new Try-On Insurance API, purpose-built for external partners looking to integrate short-term coverage for both villa and home products.\nWhether you're building a digital onboarding flow, a real estate platform, or a financial service app, our API lets you offer risk-free trial insurance that converts users into long-term customers. Get started today—connect with our developer portal or request access to the sandbox environment.",
+   "products": [
+    {
+     "id": "buy-try-on-property-insurance-private-se",
+     "name": "Buy Try-on Property Insurance Private SE",
+     "description": "Short-term coverage for both villa and home products. This API is only available on the Swedish market.",
+     "apis": [
+      {
+       "name": "Buy Try-on Property Insurance Private SE",
+       "description": "This API creates a fixed-price Try-on short-term insurance policy for homes or villas based on the provided input. It allows Swedish partners to seamlessly create Try-on insurances."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/coverage-search-property-insurance",
+   "url": "https://developer.if-insurance.com/apis/property/coverage-search-property-insurance/",
+   "category": "property",
+   "name": "Coverage Search Property Insurance",
+   "meta_description": "The Coverage search Property Insurance API helps streamline the processes related to property insurance coverage, providing fast and secure access to essential data. This API covers all Nordic countries.",
+   "ai_description": "",
+   "page_text": "Coverage Search Property Insurance\nThis API provides insurance coverage information for Nordic property insurance.\nInput SSN or policy number, a date & get the coverage information returned.\nProvides data for every relevant object on location.\nView data of recently expired policy.\nOptimize property check insurance procedures.\nThe Coverage search Property Insurance API helps streamline the processes related to property insurance coverage, providing fast and secure access to essential data. This API covers all Nordic countries.\nThe Coverage Search Property Insurance API provides detailed information regarding the coverage of insured properties in a form of a coverage report. The returned coverage report contains data such as customer information, policy details, and insured object information. This API would help streamline processes related to property insurance coverage, providing easy and secure access to essential data for decision-making. It is useful for customer insured by If, a claims advisor or an If Partner. The API flow is simple - send a request with SSN (private customer) or policy number (commercial customer). Additionally, you can specify claim/incident date or if no claim date is specified then today's date will be considered. If the specified person or policy number has relevant coverage data to specific date, a coverage report is returned. Otherwise it returns response stating that it is not covered. We offer full support to our partners to consume this API in an easy and secure manner. V2 contains more flexibility to users and is soon to be released (Spring 2026).\nCoverage search Property Insurance API",
+   "products": [
+    {
+     "id": "coverage-search-property-insurance",
+     "name": "Coverage Search Property Insurance",
+     "description": "This API  helps streamline the processes related to property insurance coverage, providing fast and secure access to essential data. The API returns policy coverage information of a property based on SSN (private flow) or policy number (commercial flow) This API covers all Nordic countries.",
+     "apis": [
+      {
+       "name": "Coverage Search Property Insurance",
+       "description": "The API returns coverage information of a Norwegian or Swedish property insurance by sending a request with SSN (private flow) or policy number (commercial flow) and claim date. If no claim date is specified then today's date will be considered. If specified person or policy number has relevant coverage data to specific date, a coverage report is returned. Otherwise it returns response stating that it is not covered. \nTODO: MAKE NORDIC"
+      },
+      {
+       "name": "Coverage Search Property Insurance",
+       "description": "The API returns coverage information of a Norwegian or Swedish property insurance by sending a request with SSN (private flow) or policy number (commercial flow) and claim date. If no claim date is specified then today's date will be considered. If specified person or policy number has relevant coverage data to specific date, a coverage report is returned. Otherwise it returns response stating that it is not covered. \nTODO: MAKE NORDIC"
+      }
+     ]
+    },
+    {
+     "id": "coverage-search-property-insurance-user",
+     "name": "Coverage Search Property Insurance User",
+     "description": "The Coverage search Property Insurance API helps streamline the processes related to property insurance coverage, providing fast and secure access to essential data. This API covers Nordic countries and add an extra layer of security for public apps.",
+     "apis": [
+      {
+       "name": "Coverage Search Property Insurance User",
+       "description": "The Coverage search Property Insurance API helps streamline the processes related to property insurance coverage, providing fast and secure access to essential data. This API will cover Nordic countries."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/householder-insurance-apis-finland",
+   "url": "https://developer.if-insurance.com/apis/property/householder-insurance-apis-finland/",
+   "category": "property",
+   "name": "Householder Insurance APIs Finland",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Householder Insurance APIs Finland\nThese Quote & Buy APIs let partners' customers instantly quote and buy householder insurance.\nThe Householder Quote & Buy APIs can be integrated and utilized by our partners, as well as in-house in If (e.g My Pages).\nThe APIs are available to anyone looking to secure protection for their homes (apartments and terraced houses). With the ease of the purchase process, the API is an appealing and relevant product to offer directly to our partners. SSN, living area, address and home type is required. For the purchase it is necessary to know customers contact information as well. Purchase requires a strong authentication, make it more secure. Full details of the householder insurance can be found from: Home insurance | Covers what matters to you | If Benefits The API is simple to use, enabling the partner to provide an excellent customer journey for end customers. Onboarding process to this API You can test the API before going to production and If offers technical and businees support support during the integration for a smooth onboradign process.",
+   "products": [
+    {
+     "id": "request-quote-householder-insurance-fi",
+     "name": "Request Quote Householder Insurance FI",
+     "description": "Allow customers to calculate quotes for householder insurance in finland",
+     "apis": [
+      {
+       "name": "List Coverage Items Householder Insurance FI",
+       "description": "Will be used to get content, text and relevant files describing the householder product in finland"
+      },
+      {
+       "name": "Request Quote Householder Insurance FI",
+       "description": "Allow customers to calculate quotes for householder insurance in finland"
+      }
+     ]
+    },
+    {
+     "id": "buy-householder-insurance-fi",
+     "name": "Buy Householder Insurance FI",
+     "description": "Allow customers to purchase householder insurances in Finland. This API uses User Authentication.",
+     "apis": [
+      {
+       "name": "Buy Householder Insurance FI",
+       "description": "Allow customers to purchase householder insurances in Finland. This API uses User Authentication."
+      }
+     ]
+    },
+    {
+     "id": "buy-householder-insurance-fi-system",
+     "name": "Buy Householder Insurance FI System",
+     "description": "Allow customers to purchase householder insurances in Finland. This API uses System Authentication.",
+     "apis": [
+      {
+       "name": "Buy Householder Insurance FI System",
+       "description": "Allow customers to purchase householder insurances in Ffinland. This API uses System Authentication."
+      },
+      {
+       "name": "List Coverage Items Householder Insurance FI",
+       "description": "Will be used to get content, text and relevant files describing the householder product in finland"
+      },
+      {
+       "name": "Request Quote Householder Insurance FI",
+       "description": "Allow customers to calculate quotes for householder insurance in finland"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/buy-home-insurance-sweden",
+   "url": "https://developer.if-insurance.com/apis/property/property-insurance-sweden-apis/buy-home-insurance-sweden/",
+   "category": "property",
+   "name": "Buy Home Insurance Sweden",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "The Buy Home Insurance Sweden API enables digital partners to generate quotes and complete policy purchases for three levels of home insurance coverage. The API is designed for fast, reliable integration and supports both real‑time quoting and policy issuance.\nJust add a social security number and living address. Answer a few questions and you will be presented with a price and possibility to buy the insurance.\nif icon symbol curve-directions\nThis Buy API is suitable for customers who know what they need and just want to get a price and hopefully buy the product\nWhat’s Included in Buy Home Insurance?\nA home insurance policy is a package that contains many important types of protection. Below is a concise summary of what the basic coverage includes.\nProtection for Your Belongings — Inside and Outside the Home Home insurance covers items you own, rent, or borrow for private use. You can receive compensation if they are damaged due to events such as fire, burglary, or water leakage. Compensation if Your Home Becomes Uninhabitable If your home is damaged to the extent that you can no longer live in it, you may receive compensation for additional costs related to alternative accommodation and storage for up to two years. 45 Days of Travel Insurance All our home insurance policies include 45 days of travel protection. You are covered for medical expenses if you become ill or injured abroad, as well as if you are robbed or have property stolen. Support for Identity Theft and Assault You can receive personal advice on how to prevent identity theft. If your identity is stolen, you also get help to limit the damage and legal assistance to challenge false claims. If you are subjected to robbery, assault, or abuse, you may receive compensation in the form of a fixed amount. Crisis Therapy If you experience a crisis reaction after a robbery, assault, burglary, or fire, you may receive compensation for crisis therapy. We cover up to 10 therapy sessions with a licensed psychologist, up to SEK 1,500 per session. Liability and Legal Protection If someone demands damages from you, we investigate whether you are legally liable and pay any compensation up to SEK 5 million. You may also receive compensation for attorney and court costs up to SEK 300,000 if you become involved in a dispute that may go to district court. See what's included in the insurance for respective coverage",
+   "products": [
+    {
+     "id": "buy-home-insurance-se",
+     "name": "Buy Home Insurance SE",
+     "description": "Enabling digital partners to generate quotes and complete policy purchases for three levels of home insurance coverage. Designed for fast, reliable integration and supports both real‑time quoting and policy issuance.",
+     "apis": [
+      {
+       "name": "Buy Home Insurance SE",
+       "description": "Enabling digital partners to generate quotes and complete policy purchases for three levels of home insurance coverage. Designed for fast, reliable integration and supports both real‑time quoting and policy issuance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/property-policy",
+   "url": "https://developer.if-insurance.com/apis/property/property-policy/",
+   "category": "property",
+   "name": "Property Policy APIs",
+   "meta_description": "This API provides a fast and reliable way for insurance brokers to create property insurance, e.g. home insurance, policies at If.",
+   "ai_description": "",
+   "page_text": "A fast and reliable way for insurance brokers to create and administrate property insurance policies in If.\nSecure and fast way to share data\nSafe handling of personally identifiable information data\nProperty insurance policy administration APIs for insurance brokers.\nThis API provides a fast and reliable way for insurance brokers to create property insurance (e.g. home insurance) policies at If. It also supports the update and removal of policies created earlier via this API by the same insurance broker. As input the API accepts information about the buyer(s)/policy holder(s), such as Name National identification number Contact information such as phone number and email address and information about the insured property, such as construction year area location as well as other technical information required for the creation of the insurance policy. The only output is the correlation ID of the request. If will process the submitted data asynchronously and create/update/remove the requested insurance policy.\nThis API provides a fast and reliable way for insurance brokers to create property insurance, e.g. home insurance, policies at If.",
+   "products": [
+    {
+     "id": "admin-property-policy",
+     "name": "Admin Property Policy",
+     "description": "Register and administrate policies in If systems sold via partners. Create, update and/or delete policies. The main input is the insured object and policy holders and validity date. The main output is the unique correlation ID, no other information is sent back.",
+     "apis": [
+      {
+       "name": "Admin Property Policy",
+       "description": "This API is for partners so that they can administrate the property insurance policies that they have sold. They need to register  and administrate the policies in If systems. They can create, update and/or delete policies. Main input is the insured object and policy holders and validity date. Main output is the unique correlation ID, no other information back. Oauth scope: property.policy.admin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "property/property-quote-buy-apis-norway",
+   "url": "https://developer.if-insurance.com/apis/property/property-quote-buy-apis-norway/",
+   "category": "property",
+   "name": "Property Quote & Buy APIs Norway",
+   "meta_description": "Through the Property Quote & Buy APIs Norway partners can offer If's Property insurance product to everyone who wishes to insure their valuables and house contents.",
+   "ai_description": "",
+   "page_text": "Property Quote & Buy APIs Norway\nThese API products offer the possibility to buy insurance for the valuables of a home (householder insurance), or can be bought as a bundle for house insurance and its valuables (property insurance).\nIt’s super smooth to buy our Householder insurance. We just need the address to find your price.\nThe coverage selection is personalized to allow a one-click purchase (in most cases).\nThe Get Quote and Buy API is suitable for customers who know what they need and just want to get the price calculation and purchase done.\nThe Property and Householder Quote & Buy API can be implemented and utilized by our property partners as well as partners in other fields.\nOffer householder insurance from If - Innboforsikring to have your customers' valuables and house contents insured. The Householder insurance product is available to everyone who wishes to insure their valuables and house contents. With a continual focus on improving product coverage and the purchase process, Householder (Innboforsikring) is an attractive and relevant product to offer directly to your visitors and clients. Here is an example of how the Norwegian Postal Services (Posten) has used this API product. The Householder insurance includes coverage for moving damages, pest control, identity theft, and rental insurance. Offer Property insurance ( Husforsikring and Innboforsikring ) from If to cover both the house and the valuables (content) of the house. This API uses the address of the property and the customer as input. It requires a quote for property insurance to be created (through the Quote Property Insurance NO API). It takes the quote ID and contact information of the customer as input. If the purchase is accepted, the insurance is added to a policy in the Norwegian private core system and details on the insurance is returned. This API is for the Norwegian market only. This API provides texts that explain what the coverage options for the householder and homeowner insurances cover. Benefits These APIs let a visitor calculate price and purchase insurance while staying on our partners’ platforms, such as websites and apps. The APIs quickly find the exact price for a given potential customer utilizing If’s core systems, the same as if.no webshop. If Quote & Buy APIs will interest our partners within housing development and can be included in premium packages when your customer is in the market for an apartment or a house. These APIs are available for the Norwegian market only. If offers similar APIs in other Nordic countries as well.\nThrough the Property Quote & Buy APIs Norway partners can offer If's Property insurance product to everyone who wishes to insure their valuables and house contents.",
+   "products": [
+    {
+     "id": "buy-householder-insurance-no",
+     "name": "Buy Householder Insurance NO",
+     "description": "This API requires a quote for householder insurance to be created (through the Request Quote Householder Insurance NO API). It takes the quote ID and contact information of the customer as input. If the purchase is accepted, the insurance is added to a policy in the Norwegian private core system and details on the insurance is returned. This API is for the Norwegian market only.",
+     "apis": [
+      {
+       "name": "Buy Householder Insurance NO",
+       "description": "This API requires a quote for householder insurance to be created (through the Request Quote Householder Insurance NO API). It takes the quote ID and contact information of the customer as input. If the purchase is accepted, the insurance is added to a policy in the Norwegian private core system and details on the insurance is returned. This API is for the Norwegian market only. Oauth scope: property.householder.buy.no"
+      },
+      {
+       "name": "List Coverage Items Householder Insurance NO",
+       "description": "This API list coverage items for both Request Quote Householder Insurance NO and Buy Householder Insurance NO. This API is for the Norwegian market only. Oauth scope: property.householder.listcoverage.no"
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "Request Quote Householder Insurance NO",
+       "description": "This API wil take customer SSN, name and the address of the property related as input. It will return a quote for Householder Insurance. This API is for the Norwegian market only. Oauth scope: property.householder.quote.no"
+      }
+     ]
+    },
+    {
+     "id": "request-quote-householder-insurance-no",
+     "name": "Request Quote Householder Insurance NO",
+     "description": "This API wil take customer SSN, name and the address of the property related as input. It will return a quote for Householder Insurance. This API is for the Norwegian market only.",
+     "apis": [
+      {
+       "name": "List Coverage Items Householder Insurance NO",
+       "description": "This API list coverage items for both Request Quote Householder Insurance NO and Buy Householder Insurance NO. This API is for the Norwegian market only. Oauth scope: property.householder.listcoverage.no"
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "Request Quote Householder Insurance NO",
+       "description": "This API wil take customer SSN, name and the address of the property related as input. It will return a quote for Householder Insurance. This API is for the Norwegian market only. Oauth scope: property.householder.quote.no"
+      }
+     ]
+    },
+    {
+     "id": "buy-property-insurance-no",
+     "name": "Buy Property Insurance NO",
+     "description": "This API requires a quote for property insurance to be created (through the Quote Property Insurance NO API). It takes the quote ID and contact information of the customer as input. If the purchase is accepted, the insurance is added to a policy in the Norwegian private core system and details on the insurance is returned. This API is for the Norwegian market only.",
+     "apis": [
+      {
+       "name": "Buy Property Insurance NO",
+       "description": "This API requires a quote for property insurance to be created (through the Quote Property Insurance NO API). It takes the quote ID and contact information of the customer as input. If the purchase is accepted, the insurance is added to a policy in the Norwegian private core system and details on the insurance is returned. This API is for the Norwegian market only."
+      },
+      {
+       "name": "List Coverage Items Property Insurance NO",
+       "description": "This API provides texts that explain what the coverage options for the householder and homeowner insurances cover. This API is for the Norwegian market only."
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "Request Quote Property Insurance NO",
+       "description": "This API creates a quote for householder and/or homeowner insurance depending on what insurance is needed for the property. It takes the address of the property and the customer as input. This API is for the Norwegian market only."
+      }
+     ]
+    },
+    {
+     "id": "request-quote-property-insurance-no",
+     "name": "Request Quote Property Insurance NO",
+     "description": "This API creates a quote for householder and/or homeowner insurance depending on what insurance is needed for the property. It takes the address of the property and the customer as input. This API is for the Norwegian market only.",
+     "apis": [
+      {
+       "name": "List Coverage Items Property Insurance NO",
+       "description": "This API provides texts that explain what the coverage options for the householder and homeowner insurances cover. This API is for the Norwegian market only."
+      },
+      {
+       "name": "List Insurance Companies NO",
+       "description": "Lists Insurance companies in Norway. Used as helper APIs for the Buy Car Insurance NO and Buy Householder Insurance NO APIs. OAuth scope insurance.companylist.no"
+      },
+      {
+       "name": "Request Quote Property Insurance NO",
+       "description": "This API creates a quote for householder and/or homeowner insurance depending on what insurance is needed for the property. It takes the address of the property and the customer as input. This API is for the Norwegian market only."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "self-service/contractor-locator-api",
+   "url": "https://developer.if-insurance.com/apis/self-service/contractor-locator-api/",
+   "category": "self-service",
+   "name": "Contractor Locator API",
+   "meta_description": "Our Contractor Locator API helps claims advisors in finding a partner with the right expertise and skills to solve the customer’s claim.",
+   "ai_description": "",
+   "page_text": "Finding the best contractor or inspection partner for building and residential claims\nSearch If's extensive network of property partners\nGet the best results based on location and capabilities needed.\nOur Contractor Locator API helps claims advisors in finding a partner with the right expertise and skills to solve the customer’s claim. If has a network with building and residential partners in Sweden, Norway, Finland and Denmark. Our API requires input from the consumer about needed capabilities and claim address. A ranking model is then applied, and the API returns a list of partners in sorted order including partner information and driving distance between the customer and the partner. From this list, the claims advisors can easily invite the partner that suits the assignment best, from both a customer and If perspective\nOur Contractor Locator API helps claims advisors in finding a partner with the right expertise and skills to solve the customer’s claim.",
+   "products": [
+    {
+     "id": "contractor-locator-property",
+     "name": "Contractor Locator Property",
+     "description": "The API will locate property partner contractors.",
+     "apis": [
+      {
+       "name": "Contractor Locator Property",
+       "description": "The API will locate property partner contractors. OAuth scope: property.contractor.locator"
+      },
+      {
+       "name": "Contractor Locator Property",
+       "description": "The API will locate property partner contractors. OAuth scope: property.contractor.locator"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "self-service/manage-insrt-ancillary-insurances",
+   "url": "https://developer.if-insurance.com/apis/self-service/manage-insrt-ancillary-insurances/",
+   "category": "self-service",
+   "name": "Manage Insrt Ancillary Insurances",
+   "meta_description": "",
+   "ai_description": "",
+   "page_text": "Manage Insrt Ancillary Insurances\nThis API suite enables B2B2C distribution of tailored insurance products.\nInsurance solutions tailored for the sharing economy,\nFlexible pricing and seamless processes to ensure customers have the right coverage\nEmpowering customers to customize their coverage\nSeamlessly bundle ancillary insurance with your offerings at the point of sale, transforming insurance into an integral part of your product — across every market you serve\nOur insrt ancillary insurances allow B2B2C distribution of tailored insurance products to be offered as part of your product or service whether it is coverage for the sharing economy or deductible reduction as a value-added service. The process can be tailored to your purchase flow and customer journey with a pricing model tailored to your sector. The insurances are available in all Nordic countries and outside depending on contract model. How it works The Purchase trips on short term rental policy APIs is the product tailored for the sharing economy. Each API call represents a rental or sharing occasion that is sent at the time of purchase. Coverages and add-on such as assistance and deductible reduction add-ons can be tailored in a discussion as we shape the targeted offering. The purchase deductible reduction API purchases a deductible reduction based on the targeted end and start date. The product can be tailored in discussion with us as well as targeted reduction level. The get deductible reduction transaction API retrieves historic purchases based on a customer policy and targeted purchase period or transaction.",
+   "products": [
+    {
+     "id": "manage-insrt-ancillary-insurances--self-service",
+     "name": "Manage Insrt Ancillary Insurances",
+     "description": "This API is used to manage insurances and insurance purchases from Insrt.",
+     "apis": [
+      {
+       "name": "Manage Insrt Ancillary Insurances",
+       "description": "This API is used to manage insurances and insurance purchases from Insrt."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
