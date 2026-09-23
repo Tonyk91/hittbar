@@ -78,3 +78,24 @@ def test_parse_page_skips_category_pages():
             + json.dumps({"props": {"pageProps": {"page": {"_typeName": "ProductCategoryPage"}}}})
             + "</script>")
     assert parse_page("https://developer.if-insurance.com/apis/mobility/", html) is None
+
+
+def test_bm25_ranks_the_matching_document_first():
+    from hittbar.search import BM25
+    index = BM25({"a": "travel insurance quote Finland", "b": "car insurance Denmark buy",
+                  "c": "home contents insurance Norway"})
+    assert index.rank("buy car insurance in Denmark")[0] == "b"
+
+
+def test_bm25_ranking_is_deterministic_on_ties():
+    from hittbar.search import BM25
+    index = BM25({"b": "same words", "a": "same words"})
+    assert index.rank("same") == ["a", "b"]
+
+
+def test_every_answerable_task_has_a_searchable_document():
+    from hittbar.search import documents
+    for cond in catalog.CONDITIONS:
+        docs = documents(cond)
+        for t in load_tasks():
+            assert all(a in docs for a in t["accept"]), (cond, t["id"])

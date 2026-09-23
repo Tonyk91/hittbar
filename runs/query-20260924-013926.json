@@ -1,0 +1,3231 @@
+{
+ "model": "claude-opus-5",
+ "runs": 3,
+ "cost_usd": 0.8808,
+ "summary": {
+  "published/plain": {
+   "recall@1": 0.609,
+   "recall@3": 0.81,
+   "recall@5": 0.856,
+   "recall@5_by_lang": {
+    "en": 0.9,
+    "sv": 0.4,
+    "no": 0.889
+   },
+   "recall@5_per_run": [
+    0.879,
+    0.81,
+    0.879
+   ]
+  },
+  "published/hint": {
+   "recall@1": 0.649,
+   "recall@3": 0.816,
+   "recall@5": 0.856,
+   "recall@5_by_lang": {
+    "en": 0.873,
+    "sv": 0.733,
+    "no": 0.778
+   },
+   "recall@5_per_run": [
+    0.862,
+    0.879,
+    0.828
+   ]
+  },
+  "ai/plain": {
+   "recall@1": 0.563,
+   "recall@3": 0.707,
+   "recall@5": 0.799,
+   "recall@5_by_lang": {
+    "en": 0.847,
+    "sv": 0.267,
+    "no": 0.889
+   },
+   "recall@5_per_run": [
+    0.793,
+    0.793,
+    0.81
+   ]
+  },
+  "ai/hint": {
+   "recall@1": 0.534,
+   "recall@3": 0.776,
+   "recall@5": 0.874,
+   "recall@5_by_lang": {
+    "en": 0.86,
+    "sv": 0.933,
+    "no": 1.0
+   },
+   "recall@5_per_run": [
+    0.845,
+    0.914,
+    0.862
+   ]
+  },
+  "pagetext/plain": {
+   "recall@1": 0.632,
+   "recall@3": 0.764,
+   "recall@5": 0.891,
+   "recall@5_by_lang": {
+    "en": 0.94,
+    "sv": 0.4,
+    "no": 0.889
+   },
+   "recall@5_per_run": [
+    0.879,
+    0.879,
+    0.914
+   ]
+  },
+  "pagetext/hint": {
+   "recall@1": 0.626,
+   "recall@3": 0.856,
+   "recall@5": 0.92,
+   "recall@5_by_lang": {
+    "en": 0.913,
+    "sv": 0.933,
+    "no": 1.0
+   },
+   "recall@5_per_run": [
+    0.914,
+    0.931,
+    0.914
+   ]
+  }
+ },
+ "queries": [
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "car insurance quote and policy purchase API for auto dealers in Denmark, motor insurance price calculation and online sign-up at point of sale",
+   "cost_usd": 0.002865
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor insurance premium quotation API used passenger car private customer Finland pre-purchase pricing",
+   "cost_usd": 0.00245
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance free trial period policy issuance API Norway motor vehicle insurance subscription",
+   "cost_usd": 0.002455
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "check active insurance coverage by vehicle registration number Norway",
+   "cost_usd": 0.002195
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "bilhandlare Sverige ändra försäkringsorder fordon före leverans motorförsäkring order amendment API",
+   "cost_usd": 0.002765
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance purchase API BankID authentication Sweden motor policy quote and buy embedded partner integration",
+   "cost_usd": 0.002545
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Swedish motor/car insurance purchase API for branded partner policies, system-to-system machine-to-machine authentication (client credentials, no end-user login), buy/issue policy after quote",
+   "cost_usd": 0.00324
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Swedish personal motor/car insurance policy API: policy details, coverage, deductibles/excess, billing and invoices, with BankID authenticated customer login",
+   "cost_usd": 0.002995
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup API Sweden by personal identity number and registration number, agent-initiated customer service policy details retrieval without customer login",
+   "cost_usd": 0.00305
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance lead capture callback request API vehicle registration lookup contact details Sweden",
+   "cost_usd": 0.00241
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy goods vehicle truck fleet Sweden",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy coverage lookup by Swedish registration number and date of loss claims",
+   "cost_usd": 0.002515
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor insurance premium calculation API for partner bundled monthly billing",
+   "cost_usd": 0.00229
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group credit loan repayment cover illness disability involuntary unemployment borrower",
+   "cost_usd": 0.003305
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook notification API",
+   "cost_usd": 0.00206
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor claims repair shop assignment workshop allocation vehicle damage Finland",
+   "cost_usd": 0.00236
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy lookup verification by personal identity number Sweden customer coverage check",
+   "cost_usd": 0.002375
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage lookup API real-time benefits verification dog veterinary clinic",
+   "cost_usd": 0.002445
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney signing request reminder cancel e-signature status API",
+   "cost_usd": 0.002165
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "used car extended warranty policy sale API by vehicle registration number with coverage tier selection, dealership point-of-sale quote and bind",
+   "cost_usd": 0.00278
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "Insrt insurance purchase integration policy sales API",
+   "cost_usd": 0.002075
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident insurance API Sweden individual adult quote and purchase policy issuance",
+   "cost_usd": 0.00238
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Sweden accident and illness insurance sales API for senior customers over 50, quote and purchase personal accident health cover",
+   "cost_usd": 0.00263
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance personal health sales quote policy issuance Sweden individual retail",
+   "cost_usd": 0.00235
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip price quote API Norway personal lines rating",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance annual policy purchase API Norway embedded partner sales private customer",
+   "cost_usd": 0.00293
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API Finland server-to-server booking integration",
+   "cost_usd": 0.002335
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote price API Finland",
+   "cost_usd": 0.00195
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification by date, policy status check API",
+   "cost_usd": 0.002215
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance claims API partner claim submission first notification of loss emergency assistance abroad",
+   "cost_usd": 0.002425
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "barnförsäkring Sverige API försäljning offert teckna barn child insurance quote purchase partner distribution",
+   "cost_usd": 0.002605
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance purchase API Norway BankID authentication policy issuance minor dependent coverage",
+   "cost_usd": 0.002435
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote API server-to-server unauthenticated Norway partner bank",
+   "cost_usd": 0.002355
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance enrollment API Sweden free baby maternity cover registration",
+   "cost_usd": 0.00239
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "sjukvårdsförsäkring privatperson mäklare Sverige försäljning offert teckna API",
+   "cost_usd": 0.002555
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden mortgage protection API quote application underwriting policy issuance partner distribution",
+   "cost_usd": 0.00245
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "health insurance coverage verification physiotherapy treatment eligibility check Norway patient benefits API",
+   "cost_usd": 0.002565
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "healthcare provider direct billing claims registration API Finland patient treatment claim submission",
+   "cost_usd": 0.002415
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "Norway disability income loss calculator API — estimate lost income if unable to work, based on age, salary and number of children",
+   "cost_usd": 0.002575
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API income range debt range occupation work category code lists Norway personal insurance",
+   "cost_usd": 0.00233
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "home insurance policy lookup API Sweden retrieve existing customer policy details partner bank shared customers",
+   "cost_usd": 0.002535
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "short-term temporary home insurance policy issuance API Sweden property moving coverage partner distribution",
+   "cost_usd": 0.002455
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage lookup by policy number Norway house home",
+   "cost_usd": 0.00224
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "home contents insurance quote API tenant rental apartment Finland",
+   "cost_usd": 0.002135
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase API Finland policy sales quote",
+   "cost_usd": 0.00214
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Finland home contents insurance quote and purchase API server-to-server no end-user authentication",
+   "cost_usd": 0.003285
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "hemförsäkring privat Sverige försäljning API offert tre skyddsnivåer köp i app",
+   "cost_usd": 0.0026
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property insurance policy registration and update API for brokers",
+   "cost_usd": 0.00204
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "innboforsikring pristilbud API leilighet kalkulator home contents insurance quote",
+   "cost_usd": 0.002385
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Norway home building insurance property quote API",
+   "cost_usd": 0.00196
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Norway home insurance purchase quote conversion policy issuance API",
+   "cost_usd": 0.002195
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "repair partner network locator API - find nearby approved carpenters and plumbers for property water damage claims",
+   "cost_usd": 0.00248
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001945
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "retrieve list of customer claims by customer ID partner agent claims lookup API",
+   "cost_usd": 0.00271
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extraction API all lines of business risk management system integration",
+   "cost_usd": 0.00222
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document notification and retrieval API for brokers - commercial/industrial insurance document ready events and download",
+   "cost_usd": 0.002485
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event webhook subscription management API subscribe update pause notifications",
+   "cost_usd": 0.0023
+  },
+  {
+   "variant": "plain",
+   "run": 0,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "submit business insurance sales lead from partner portal API",
+   "cost_usd": 0.00204
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "car insurance quote and policy purchase API for Danish motor vehicle dealers point of sale",
+   "cost_usd": 0.00249
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor insurance premium quote calculation API used passenger car private customer Finland pre-purchase pricing",
+   "cost_usd": 0.0025
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance free trial period Norway motor vehicle policy issuance API",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "check active insurance coverage by vehicle registration number Norway motor policy lookup",
+   "cost_usd": 0.00237
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "bilhandlare Sverige ändra försäkringsorder motorfordon före leverans API",
+   "cost_usd": 0.00254
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance direct sales API embedded partner white-label motor policy purchase quote BankID authentication Sweden",
+   "cost_usd": 0.002595
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "system-to-system machine-to-machine API purchase car motor insurance policy issuance after quote Sweden white label branded partner",
+   "cost_usd": 0.00294
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Swedish personal motor/car insurance policy API: policy details, deductibles (självrisk), invoices and billing, BankID authenticated customer, branded white-label retail insurance",
+   "cost_usd": 0.00317
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup by personal identity number and registration number, agent-initiated customer service policy inquiry Sweden, private car insurance coverage details API",
+   "cost_usd": 0.003375
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance lead capture callback request API vehicle registration lookup Sweden",
+   "cost_usd": 0.002335
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy goods vehicle truck fleet Sweden",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy coverage lookup by Swedish registration number at date of loss claims",
+   "cost_usd": 0.002515
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor insurance premium calculation API for bundled car loan financing partner invoicing",
+   "cost_usd": 0.00239
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group policy borrower loan repayment cover disability illness involuntary unemployment credit insurance",
+   "cost_usd": 0.002655
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook notification API",
+   "cost_usd": 0.00206
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor claims repair shop workshop assignment allocation vehicle damage Finland",
+   "cost_usd": 0.00236
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy verification lookup by personal identity number personnummer Sweden customer coverage check",
+   "cost_usd": 0.002475
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage verification API dog veterinary real-time benefits eligibility check",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney signing request reminder cancel API",
+   "cost_usd": 0.00204
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "used car extended warranty sales API quote and policy issuance by vehicle registration number and coverage tier, dealership point-of-sale",
+   "cost_usd": 0.002755
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "Insrt insurance purchase integration policy sales API",
+   "cost_usd": 0.002075
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident insurance API Sweden personal accident cover quote and purchase adults embedded app",
+   "cost_usd": 0.002605
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance API Sweden senior over 50 personal insurance sales quote",
+   "cost_usd": 0.002405
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Sweden personal accident and illness insurance sales API, combined health cover quote and policy issuance for adults under 50",
+   "cost_usd": 0.002575
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip quote price calculation Norway personal customer",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance purchase API Norway annual travel policy sales embedded partner quote and buy",
+   "cost_usd": 0.003105
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API server-to-server booking partner integration Finland",
+   "cost_usd": 0.002585
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote price API Finland",
+   "cost_usd": 0.00195
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification by date, policy status lookup API",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance claims intake API third-party partner first notice of loss submission emergency assistance abroad",
+   "cost_usd": 0.0025
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "barnförsäkring Sverige API försäljning offert teckna barn insurance children partner distribution",
+   "cost_usd": 0.00248
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "BankID authentication Norway child insurance purchase API",
+   "cost_usd": 0.00211
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote API system-to-system server-to-server unauthenticated partner bank Norway premium calculation",
+   "cost_usd": 0.002605
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance enrollment API Sweden free basic maternity cover registration",
+   "cost_usd": 0.00239
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "sjukvårdsförsäkring privatperson mäklare Sverige försäljning offert teckna API",
+   "cost_usd": 0.002555
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden mortgage protection quote and policy issuance API, embedded partner distribution, underwriting and application",
+   "cost_usd": 0.002625
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "helseforsikring dekningskontroll fysioterapi behandling pasient verifisering API Norge",
+   "cost_usd": 0.00259
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "direct billing claim registration API for healthcare providers, clinic submits patient treatment as claim, Finland health insurance",
+   "cost_usd": 0.00269
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "disability income loss calculator Norway sick leave benefit estimate age salary children",
+   "cost_usd": 0.002325
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API for income range, debt range and occupation/work category code lists for Norwegian personal insurance quote forms",
+   "cost_usd": 0.002605
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "home insurance policy lookup API Sweden existing customer policy details partner bank sharing",
+   "cost_usd": 0.00241
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "short-term temporary home insurance policy API Sweden property purchase moving coverage partner distribution",
+   "cost_usd": 0.002455
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage details lookup by policy number Norway house building water damage claims",
+   "cost_usd": 0.00239
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "contents insurance quote rental apartment home tenant Finland",
+   "cost_usd": 0.00211
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase API Finland policy quote and buy digital sales",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Finland home contents insurance sales API server-to-server no end-user authentication",
+   "cost_usd": 0.00226
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "hemförsäkring privat Sverige försäljning API offert tre skyddsnivåer köp i app",
+   "cost_usd": 0.0026
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property policy registration and update API for brokers",
+   "cost_usd": 0.001965
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "innboforsikring pristilbud API leilighet kalkulator home contents insurance quote",
+   "cost_usd": 0.002385
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Norway home building insurance property quote API",
+   "cost_usd": 0.00196
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Norway home insurance purchase quote convert to policy API",
+   "cost_usd": 0.00212
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property claims repair partner network locator API - find nearby approved carpenters and plumbers (craftsmen) by location for water damage restoration",
+   "cost_usd": 0.00278
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001945
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "retrieve list of customer claims by customer identifier for partner agents",
+   "cost_usd": 0.00221
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extract API all lines of business bulk claims retrieval risk management system integration",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document notification webhook and document download API for commercial industrial insurance brokers",
+   "cost_usd": 0.00231
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event webhook subscription management API subscribe update pause notifications",
+   "cost_usd": 0.0023
+  },
+  {
+   "variant": "plain",
+   "run": 1,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "business insurance sales lead submission API partner portal B2B commercial lead capture",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "car insurance quote and policy purchase API for car dealers point of sale Denmark motor vehicle insurance",
+   "cost_usd": 0.002615
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor insurance premium quote calculation API used passenger car private customer Finland pre-purchase pricing",
+   "cost_usd": 0.0025
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance free trial period policy issuance API Norway motor vehicle subscription",
+   "cost_usd": 0.00238
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "check active insurance coverage by vehicle registration number Norway motor policy lookup",
+   "cost_usd": 0.00237
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "API för bilhandlare att ändra befintlig försäkringsorder för ej levererad bil, fordonsförsäkring Sverige",
+   "cost_usd": 0.002915
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance purchase API BankID authentication Sweden embedded motor policy sales digital self-service",
+   "cost_usd": 0.002495
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "machine-to-machine car insurance policy purchase API Sweden motor quote and buy client credentials",
+   "cost_usd": 0.00274
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Sweden retail motor car insurance policy details deductible excess billing invoices API BankID authenticated customer self-service",
+   "cost_usd": 0.00267
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup by personal identity number and registration number, agent-facing customer service API, Sweden, no customer authentication",
+   "cost_usd": 0.00315
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance lead capture callback request API registration number Sweden",
+   "cost_usd": 0.00226
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy vehicle truck fleet Sweden",
+   "cost_usd": 0.00237
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance policy coverage lookup by Swedish registration number and date motor claims",
+   "cost_usd": 0.00244
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor insurance premium calculation API for partner banks, car loan bundled insurance pricing and monthly premium amount for invoicing",
+   "cost_usd": 0.00279
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group policy borrower loan repayment cover illness disability involuntary unemployment credit insurance",
+   "cost_usd": 0.002655
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook notification API",
+   "cost_usd": 0.00206
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor claims repair shop assignment workshop allocation vehicle damage Finland",
+   "cost_usd": 0.00236
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy verification lookup by personal identity number Sweden customer coverage check",
+   "cost_usd": 0.002375
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage verification API dog veterinary real-time benefits check",
+   "cost_usd": 0.00232
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney e-signature request reminder cancel API",
+   "cost_usd": 0.00209
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "used car extended warranty policy issuance API by vehicle registration number with coverage tier selection, dealership point-of-sale quote and bind",
+   "cost_usd": 0.002805
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "Insrt insurance purchase integration API",
+   "cost_usd": 0.001975
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident insurance API Sweden personal accident-only cover adults quote and purchase policy issuance",
+   "cost_usd": 0.00268
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance API Sweden senior over 50 personal risk cover sales quotation",
+   "cost_usd": 0.002455
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance sales API Sweden personal accident health cover adults quote underwriting policy issuance",
+   "cost_usd": 0.002525
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip quote price calculation Norway personal lines",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance purchase API Norway annual policy quote and buy embedded private customer",
+   "cost_usd": 0.003005
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API server-to-server booking integration Finland",
+   "cost_usd": 0.002535
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance price quote API Finland",
+   "cost_usd": 0.00195
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification by date, policy status lookup API",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance claims intake API for third-party assistance partners to submit claims on behalf of customers abroad",
+   "cost_usd": 0.00255
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "barnförsäkring Sverige API försäljning offert och teckning child insurance quote and buy partner distribution",
+   "cost_usd": 0.00258
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance policy purchase API Norway BankID authentication",
+   "cost_usd": 0.00276
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote API system-to-system unauthenticated Norway partner bank",
+   "cost_usd": 0.002355
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance enrollment API Sweden free basic maternity cover registration",
+   "cost_usd": 0.00239
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "sjukvårdsförsäkring privatperson mäklare Sverige försäljning offert teckna API",
+   "cost_usd": 0.002555
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden mortgage protection API quote underwriting application bundled sales partner distribution",
+   "cost_usd": 0.00245
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "health insurance coverage eligibility verification physiotherapy treatment Norway patient benefits check",
+   "cost_usd": 0.00254
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "healthcare provider direct billing claims registration API personal insurance Finland clinic treatment invoice to insurer",
+   "cost_usd": 0.00314
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "disability income loss calculation API Norway sick leave benefit estimate age income children dependents",
+   "cost_usd": 0.0024
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API for income range, debt range and occupation/work category code lists for Norwegian personal insurance quote forms",
+   "cost_usd": 0.002605
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "home insurance policy lookup API for existing customers Sweden, partner bank shared customer policy details",
+   "cost_usd": 0.002485
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "short-term temporary home insurance policy issuance API Sweden property moving cover",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage lookup by policy number Norway house",
+   "cost_usd": 0.002215
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "home contents insurance quote API rental apartment tenant Finland",
+   "cost_usd": 0.002135
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase API Finland policy issuance quote",
+   "cost_usd": 0.002165
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Finland home contents insurance sales API server-to-server machine-to-machine authentication no end-user login policy issuance quote",
+   "cost_usd": 0.002635
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "home insurance sales API Sweden private individuals quote purchase coverage levels embedded in-app",
+   "cost_usd": 0.002525
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property insurance policy registration and update API for brokers",
+   "cost_usd": 0.00204
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "innboforsikring pristilbud API leilighet leietaker kalkulator home contents insurance quote Norway",
+   "cost_usd": 0.00256
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance quote API house building homeowners Norway",
+   "cost_usd": 0.00206
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "convert quote to policy purchase Norway home insurance API",
+   "cost_usd": 0.00212
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "claims repair partner network lookup API — find nearby approved contractors (carpenter, plumber) by location for property water damage",
+   "cost_usd": 0.002655
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001945
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "retrieve list of customer claims by customer identifier for partner agent lookup",
+   "cost_usd": 0.002285
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extraction API all lines of business risk management system integration",
+   "cost_usd": 0.00222
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document ready notification webhook and document download API for commercial/industrial insurance brokers",
+   "cost_usd": 0.002385
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event webhook subscription management API - subscribe, pause, update subscriptions",
+   "cost_usd": 0.002425
+  },
+  {
+   "variant": "plain",
+   "run": 2,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "submit sales lead partner portal business commercial insurance lead capture API",
+   "cost_usd": 0.00219
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor car insurance quote and policy issuance API Denmark dealer point-of-sale",
+   "cost_usd": 0.00249
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "car insurance premium quote API private customer vehicle pricing Finland",
+   "cost_usd": 0.002925
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance free trial period policy issuance API Norway motor vehicle subscription",
+   "cost_usd": 0.00243
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "vehicle insurance coverage status lookup by registration number Norway motor policy active check",
+   "cost_usd": 0.002445
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "car dealer vehicle insurance order amend update existing policy before delivery Sweden motor",
+   "cost_usd": 0.00339
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance purchase API with BankID authentication for embedded partner app, motor policy quote and buy, digital sales integration",
+   "cost_usd": 0.00272
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "machine-to-machine (client credentials) API to purchase and issue motor/car insurance policy after quote, Sweden",
+   "cost_usd": 0.00294
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Swedish motor vehicle insurance policy API: BankID authenticated customer, car policy details, deductibles, premiums and invoices/billing",
+   "cost_usd": 0.002945
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup by personal identity number and registration number, agent-facing customer service API, Sweden",
+   "cost_usd": 0.002825
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance lead capture callback request API with license plate lookup and customer contact details",
+   "cost_usd": 0.00246
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy vehicle truck fleet Sweden",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance policy coverage lookup by Swedish registration number at date of loss motor claims",
+   "cost_usd": 0.002565
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor insurance premium calculation API for car loan bundled monthly billing",
+   "cost_usd": 0.002365
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group credit life disability involuntary unemployment loan repayment cover borrower enrolment claims",
+   "cost_usd": 0.003005
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook push notification event API",
+   "cost_usd": 0.00216
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor vehicle claim repair shop assignment workshop allocation after accident Finland",
+   "cost_usd": 0.003285
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy coverage verification lookup by personal identity number Sweden customer",
+   "cost_usd": 0.0024
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage lookup API real-time veterinary claims eligibility verification",
+   "cost_usd": 0.002445
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney signing request reminder cancel API",
+   "cost_usd": 0.00209
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle extended warranty policy sale API by registration number with coverage tier selection for car dealerships",
+   "cost_usd": 0.002755
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "insurance purchase policy issuance integration API",
+   "cost_usd": 0.00205
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident insurance API Sweden quote and purchase individual accident cover",
+   "cost_usd": 0.002355
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident and illness insurance quote and policy sales API for private individuals Sweden",
+   "cost_usd": 0.00323
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident and health insurance sales quote and policy issuance API Sweden individual",
+   "cost_usd": 0.00235
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip price quote calculation API private customer Norway, no policy purchase",
+   "cost_usd": 0.00318
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance annual policy purchase quote and bind API Norway embedded partner distribution",
+   "cost_usd": 0.003105
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API for booking systems, server-to-server integration, Finland",
+   "cost_usd": 0.00251
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance price quote API Finland",
+   "cost_usd": 0.002
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification by date, policy status lookup for claims",
+   "cost_usd": 0.002365
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance claims API first notice of loss submission by third-party assistance partner abroad",
+   "cost_usd": 0.00305
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "children's insurance Sweden quote and policy purchase API for partner distribution",
+   "cost_usd": 0.00233
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance purchase API Norway BankID authentication minor dependent coverage",
+   "cost_usd": 0.003035
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote calculation API Norway unauthenticated system-to-system server-to-server partner distribution",
+   "cost_usd": 0.003455
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance enrollment API free maternity cover sign-up Sweden",
+   "cost_usd": 0.00244
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "broker distribution API for selling private health insurance to individuals in Sweden - quote, application and policy issuance",
+   "cost_usd": 0.00333
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden underwriting policy issuance API mortgage loan protection",
+   "cost_usd": 0.00235
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "health insurance coverage eligibility verification physiotherapy treatment benefits check API",
+   "cost_usd": 0.00249
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "health insurance claims submission API for healthcare providers direct billing patient treatment coverage eligibility check",
+   "cost_usd": 0.002615
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "disability income loss calculation API, sick leave benefit estimate based on age, salary and number of children, Norway",
+   "cost_usd": 0.0026
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API lookup values income range debt range occupation work category codes personal insurance",
+   "cost_usd": 0.00238
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "retrieve existing home insurance policy details for a customer, partner bank third-party access, Sweden",
+   "cost_usd": 0.003485
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "short-term temporary home insurance policy issuance API for property moving coverage Sweden partner distribution",
+   "cost_usd": 0.00253
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage details lookup by policy number Norway home building",
+   "cost_usd": 0.002315
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "contents insurance quote rental apartment home insurance pricing Finland",
+   "cost_usd": 0.002235
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase policy sales API Finland",
+   "cost_usd": 0.00214
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "Finland home contents insurance quote and purchase API server-to-server machine-to-machine no end-user authentication",
+   "cost_usd": 0.00346
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "home insurance sales API for private customers Sweden, quote and purchase, three coverage levels, mobile app integration",
+   "cost_usd": 0.002875
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property insurance policy registration and update API for brokers",
+   "cost_usd": 0.00209
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "home contents insurance quote API rented apartment price calculation",
+   "cost_usd": 0.00216
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance quote API home building insurance Norway",
+   "cost_usd": 0.002085
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "purchase bind existing home insurance quote policy issuance Norway",
+   "cost_usd": 0.002945
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "find nearby approved repair partner contractor carpenter plumber locator API for property water damage claims",
+   "cost_usd": 0.002505
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001995
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "retrieve list of customer's claims by customer identifier, claims history lookup API for partner call centre agents",
+   "cost_usd": 0.00296
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extract API all lines of business risk management system integration",
+   "cost_usd": 0.002245
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document notification webhook and document retrieval API for commercial and industrial insurance brokers",
+   "cost_usd": 0.00246
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event notification webhook subscription management create update pause",
+   "cost_usd": 0.002725
+  },
+  {
+   "variant": "hint",
+   "run": 0,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "commercial insurance sales lead submission API for business customers from partner portal",
+   "cost_usd": 0.00224
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor vehicle insurance quote and policy purchase API for car dealer point-of-sale, Denmark",
+   "cost_usd": 0.00284
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor insurance premium calculation quote API private customer used vehicle Finland",
+   "cost_usd": 0.002975
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "free trial car insurance API Norway motor vehicle policy activation temporary coverage period",
+   "cost_usd": 0.00248
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "vehicle insurance coverage status lookup by registration number Norway active policy check",
+   "cost_usd": 0.002395
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "car insurance order amendment API - update or modify existing motor insurance policy order before vehicle delivery, car dealer integration Sweden",
+   "cost_usd": 0.00384
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance purchase API with BankID authentication for partner embedded/white-label vehicle insurance sales",
+   "cost_usd": 0.002595
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "machine-to-machine server-to-server API purchase buy motor car insurance policy issuance after quote Sweden white-label partner client credentials",
+   "cost_usd": 0.002915
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "BankID authenticated customer portal API for Swedish retail motor insurance — vehicle policy details, coverage and deductibles, and invoice/billing history",
+   "cost_usd": 0.00322
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup by personal identity number and registration number, agent-facing customer service API, Sweden, private car insurance policy details",
+   "cost_usd": 0.00305
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance lead capture callback request contact form with registration number lookup",
+   "cost_usd": 0.00236
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy goods vehicle truck fleet Sweden",
+   "cost_usd": 0.00247
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor insurance policy coverage lookup by vehicle registration number at a specific date",
+   "cost_usd": 0.00304
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor insurance premium calculation API for car loan bundled monthly billing",
+   "cost_usd": 0.002365
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group policy creditor loan repayment cover disability illness involuntary unemployment borrower",
+   "cost_usd": 0.002955
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook event notification API",
+   "cost_usd": 0.002135
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor insurance claim repair shop assignment - allocate damaged vehicle to approved workshop garage network Finland",
+   "cost_usd": 0.003535
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy verification lookup by personal identity number Sweden customer coverage check",
+   "cost_usd": 0.002425
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage lookup API real-time verification veterinary clinic dog",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney e-signature request API send reminder cancel pending signature",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle extended warranty policy issuance API registration number lookup coverage tier quote and purchase used car dealership",
+   "cost_usd": 0.00268
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "insurance purchase policy sales integration API partner distribution",
+   "cost_usd": 0.00215
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident insurance API Sweden quote and purchase individual accident cover",
+   "cost_usd": 0.002355
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident and illness insurance API quote and purchase for private individuals Sweden senior 50+ partner sales integration",
+   "cost_usd": 0.00363
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident and illness insurance sales API Sweden individual health cover underwriting quote purchase",
+   "cost_usd": 0.002475
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip price quote API Norway",
+   "cost_usd": 0.002205
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance quote and purchase API annual travel policy embedded partner distribution Norway",
+   "cost_usd": 0.003205
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API for partner booking systems, server-to-server integration, Finland",
+   "cost_usd": 0.00256
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote price API Finland",
+   "cost_usd": 0.002
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification check policy status active on date",
+   "cost_usd": 0.00224
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance claims first notice of loss submission API for third-party assistance partners abroad",
+   "cost_usd": 0.003125
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "child insurance Sweden quote and purchase API for partner distribution",
+   "cost_usd": 0.002255
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance purchase API Norway BankID authentication policy issuance",
+   "cost_usd": 0.00296
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote API server-to-server unauthenticated partner bank Norway",
+   "cost_usd": 0.00268
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance free basic cover enrollment registration API Sweden maternity baby",
+   "cost_usd": 0.00324
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "broker distribution API for private health insurance in Sweden - quote, application and policy issuance for individual customers",
+   "cost_usd": 0.003355
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden quote and policy issuance API for mortgage loan protection embedded sales",
+   "cost_usd": 0.002475
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "health insurance coverage eligibility verification physiotherapy treatment benefits check API",
+   "cost_usd": 0.00249
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "health insurance claim submission API for healthcare providers direct billing patient treatment coverage verification",
+   "cost_usd": 0.00254
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "disability income loss estimation API salary age children dependents Norway insurance calculator",
+   "cost_usd": 0.002375
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API for income ranges, debt ranges and occupation categories used in personal insurance quote forms",
+   "cost_usd": 0.002555
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "partner bank third-party access to retrieve existing home insurance policy details for shared customer Sweden",
+   "cost_usd": 0.003435
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "short-term temporary home insurance policy issuance API Sweden property moving coverage partner embedded",
+   "cost_usd": 0.002505
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage details lookup by policy number Norway home building",
+   "cost_usd": 0.002315
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "home contents insurance quote rental apartment tenant property quotation API",
+   "cost_usd": 0.00221
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase policy sales quote API Finland",
+   "cost_usd": 0.00219
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "server-to-server home contents insurance quotation and policy purchase API Finland, no end-user authentication",
+   "cost_usd": 0.00341
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "home insurance sales API for private customers Sweden, quote and purchase, coverage levels, mobile app embedded insurance",
+   "cost_usd": 0.002775
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property insurance policy creation and update API for brokers (partner policy administration, register new policy, amend existing policy)",
+   "cost_usd": 0.00279
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "home contents insurance quote pricing API rented apartment",
+   "cost_usd": 0.00276
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance quote API home building insurance Norway",
+   "cost_usd": 0.002085
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "bind quote purchase homeowner property insurance policy issuance Norway",
+   "cost_usd": 0.002295
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "repair partner network search contractor craftsman plumber carpenter location property damage claims",
+   "cost_usd": 0.002405
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001995
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "claims API retrieve list of customer claims by customer identifier for partner agents",
+   "cost_usd": 0.002335
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extract API all lines of business integration risk management system",
+   "cost_usd": 0.002245
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document notification webhook and document download API for commercial and industrial insurance brokers",
+   "cost_usd": 0.002385
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event notifications webhook subscription management create update pause subscriptions",
+   "cost_usd": 0.002575
+  },
+  {
+   "variant": "hint",
+   "run": 1,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "submit business customer sales lead partner portal API",
+   "cost_usd": 0.00204
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t01",
+   "lang": "en",
+   "kind": "country",
+   "query": "car insurance quote and policy purchase API for motor vehicle dealers point of sale Denmark",
+   "cost_usd": 0.003065
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t02",
+   "lang": "en",
+   "kind": "country",
+   "query": "motor insurance premium quote API private customer used car Finland",
+   "cost_usd": 0.002175
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t03",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance API Norway create temporary free trial car policy at vehicle handover, coverage start and end dates",
+   "cost_usd": 0.00358
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t04",
+   "lang": "en",
+   "kind": "direct",
+   "query": "vehicle insurance coverage status lookup by registration number Norway",
+   "cost_usd": 0.002295
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t05",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "car dealer API to update or amend an existing motor insurance order before vehicle delivery Sweden",
+   "cost_usd": 0.003465
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t06",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "car insurance purchase API with BankID authentication for partner embedded sales, motor policy quote and buy, Sweden",
+   "cost_usd": 0.002695
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t07",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "machine-to-machine car insurance policy purchase API Sweden vehicle motor quote to bind client credentials",
+   "cost_usd": 0.00289
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t08",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor car insurance policy details API: retrieve customer vehicle policies, coverage, deductibles/excess and invoices/billing, with BankID authenticated Swedish private customer identity",
+   "cost_usd": 0.00347
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t09",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy lookup by personal identity number and registration number, agent-facing customer service API, private car insurance policy details Sweden",
+   "cost_usd": 0.003025
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t10",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle insurance lead capture callback request API with vehicle registration lookup",
+   "cost_usd": 0.002385
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t11",
+   "lang": "en",
+   "kind": "direct",
+   "query": "commercial motor insurance quote API heavy goods vehicle truck fleet Sweden",
+   "cost_usd": 0.00247
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t12",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "motor vehicle insurance policy coverage lookup by registration number and date of loss",
+   "cost_usd": 0.00314
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t13",
+   "lang": "en",
+   "kind": "direct",
+   "query": "motor vehicle insurance premium calculation API for car finance partner billing",
+   "cost_usd": 0.002365
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t14",
+   "lang": "en",
+   "kind": "direct",
+   "query": "payment protection insurance API group scheme creditor insurance loan repayment cover disability illness involuntary unemployment borrower",
+   "cost_usd": 0.003055
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t15",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance towing case data webhook notification API",
+   "cost_usd": 0.00211
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t16",
+   "lang": "sv",
+   "kind": "country",
+   "query": "motor claims repair shop assignment workshop allocation vehicle damage Finland",
+   "cost_usd": 0.00241
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t17",
+   "lang": "en",
+   "kind": "direct",
+   "query": "boat insurance policy coverage lookup verification by personal identity number Sweden",
+   "cost_usd": 0.00235
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t18",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pet insurance policy coverage lookup API real-time verification veterinary clinic dog",
+   "cost_usd": 0.00242
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t19",
+   "lang": "en",
+   "kind": "direct",
+   "query": "power of attorney signing request API send reminder cancel pending e-signature",
+   "cost_usd": 0.002265
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t20",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "vehicle extended warranty policy issuance API by registration number with coverage tier selection for car dealerships",
+   "cost_usd": 0.00258
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t21",
+   "lang": "en",
+   "kind": "direct",
+   "query": "policy purchase issuance API integrate insurance sales from partner channel into platform",
+   "cost_usd": 0.0028
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t22",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "personal accident insurance API Sweden quote and purchase individual accident cover",
+   "cost_usd": 0.002355
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t23",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance API personal accident sickness cover senior 50+ quote and policy issuance Sweden",
+   "cost_usd": 0.002855
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t24",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "accident and illness insurance sales API personal health cover Sweden quote underwriting eligibility age",
+   "cost_usd": 0.002475
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t25",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance annual multi-trip price quote API Norway private customer indicative premium calculation without purchase",
+   "cost_usd": 0.00308
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t26",
+   "lang": "no",
+   "kind": "sibling",
+   "query": "travel insurance purchase API annual policy quote and buy Norway embedded partner",
+   "cost_usd": 0.00303
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t27",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance quote and policy purchase API for partner booking systems, server-to-server integration, Finland",
+   "cost_usd": 0.00256
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t28",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "travel insurance price quote API Finland",
+   "cost_usd": 0.002
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t29",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel insurance policy coverage verification check policy status active on date",
+   "cost_usd": 0.00224
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t30",
+   "lang": "en",
+   "kind": "direct",
+   "query": "travel claims first notice of loss submission API for third-party emergency assistance partners abroad",
+   "cost_usd": 0.00245
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t31",
+   "lang": "sv",
+   "kind": "country",
+   "query": "child insurance Sweden quote and purchase API partner distribution",
+   "cost_usd": 0.00223
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t32",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance purchase API Norway BankID authentication identity verification policy sales",
+   "cost_usd": 0.00296
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t33",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "child insurance price quote API unauthenticated system-to-system partner bank distribution Norway",
+   "cost_usd": 0.003305
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t34",
+   "lang": "en",
+   "kind": "direct",
+   "query": "pregnancy insurance enrollment API Sweden free basic maternity cover policy registration",
+   "cost_usd": 0.00249
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t35",
+   "lang": "sv",
+   "kind": "direct",
+   "query": "broker distribution API for selling private health insurance to individuals in Sweden",
+   "cost_usd": 0.002855
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t36",
+   "lang": "en",
+   "kind": "direct",
+   "query": "life insurance Sweden quote and policy issuance API for mortgage loan protection distribution partners",
+   "cost_usd": 0.002475
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t37",
+   "lang": "no",
+   "kind": "direct",
+   "query": "health insurance coverage eligibility verification physiotherapy treatment check policy benefits",
+   "cost_usd": 0.002515
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t38",
+   "lang": "en",
+   "kind": "direct",
+   "query": "health insurance claims submission API for healthcare providers, direct billing of patient treatment to insurer, claim registration and eligibility check",
+   "cost_usd": 0.00284
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t39",
+   "lang": "en",
+   "kind": "direct",
+   "query": "disability income loss estimation calculator API age income dependents Norway",
+   "cost_usd": 0.002625
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t40",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "reference data API for lookup values: income ranges, debt ranges, occupation and work categories for personal insurance quote forms",
+   "cost_usd": 0.002705
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t41",
+   "lang": "en",
+   "kind": "direct",
+   "query": "partner API retrieve existing home insurance policy details for shared customer Sweden",
+   "cost_usd": 0.003135
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t42",
+   "lang": "en",
+   "kind": "direct",
+   "query": "home insurance short-term temporary moving coverage Sweden property partner API",
+   "cost_usd": 0.002305
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t43",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance policy coverage details lookup by policy number Norway home building",
+   "cost_usd": 0.002315
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t44",
+   "lang": "en",
+   "kind": "country",
+   "query": "home contents insurance quote rental apartment tenant property quotation API",
+   "cost_usd": 0.00221
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t45",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance purchase policy issuance API Finland",
+   "cost_usd": 0.002165
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t46",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "home contents insurance sales API Finland server-to-server quote and purchase without end-user authentication",
+   "cost_usd": 0.00321
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t47",
+   "lang": "sv",
+   "kind": "country",
+   "query": "home insurance sales API for consumers Sweden quote and purchase with multiple coverage levels mobile app embedded",
+   "cost_usd": 0.002725
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t48",
+   "lang": "en",
+   "kind": "direct",
+   "query": "property insurance policy registration and update API for brokers",
+   "cost_usd": 0.00209
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t49",
+   "lang": "no",
+   "kind": "country",
+   "query": "home contents insurance quote API rental apartment price calculation",
+   "cost_usd": 0.00216
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t50",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "property insurance quote API home building insurance Norway",
+   "cost_usd": 0.002085
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t51",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "bind quote issue policy homeowner insurance Norway purchase completion",
+   "cost_usd": 0.002295
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t52",
+   "lang": "en",
+   "kind": "direct",
+   "query": "repair contractor partner lookup by location and trade (carpenter, plumber) for property water damage claims",
+   "cost_usd": 0.00323
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t53",
+   "lang": "en",
+   "kind": "direct",
+   "query": "customer master data lookup API company person basic details",
+   "cost_usd": 0.001995
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t54",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "retrieve list of customer claims by customer identifier, claims history lookup API for partner agents",
+   "cost_usd": 0.00246
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t55",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "corporate client claims data extract API all lines of business integration risk management system",
+   "cost_usd": 0.002245
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t56",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "policy document notification and retrieval API for brokers - commercial/industrial insurance document events, webhooks, download",
+   "cost_usd": 0.00261
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t57",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "roadside assistance event notification webhook subscription management (create, update, pause subscriptions)",
+   "cost_usd": 0.00295
+  },
+  {
+   "variant": "hint",
+   "run": 2,
+   "task": "t58",
+   "lang": "en",
+   "kind": "sibling",
+   "query": "commercial insurance sales lead submission API for business customers from partner portal",
+   "cost_usd": 0.00224
+  }
+ ]
+}
