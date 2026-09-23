@@ -1,0 +1,1100 @@
+{
+ "published": {
+  "recall@1": 0.5,
+  "recall@3": 0.741,
+  "recall@5": 0.793,
+  "recall@3_by_lang": {
+   "en": 0.84,
+   "no": 0.333,
+   "sv": 0.0
+  },
+  "recall@3_by_kind": {
+   "country": 0.286,
+   "direct": 0.773,
+   "sibling": 0.828
+  },
+  "median_rank": 2,
+  "rows": [
+   {
+    "task": "t01",
+    "kind": "country",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t02",
+    "kind": "country",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t03",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t04",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t05",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 40
+   },
+   {
+    "task": "t06",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t07",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 11
+   },
+   {
+    "task": "t08",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t09",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t10",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t11",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t12",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t13",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t14",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t15",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t16",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 11
+   },
+   {
+    "task": "t17",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t18",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 34
+   },
+   {
+    "task": "t19",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t20",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t21",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t22",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t23",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t24",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t25",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t26",
+    "kind": "sibling",
+    "lang": "no",
+    "rank": 2
+   },
+   {
+    "task": "t27",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t28",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t29",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t30",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t31",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 19
+   },
+   {
+    "task": "t32",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t33",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t34",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t35",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 16
+   },
+   {
+    "task": "t36",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t37",
+    "kind": "direct",
+    "lang": "no",
+    "rank": 25
+   },
+   {
+    "task": "t38",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 4
+   },
+   {
+    "task": "t39",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t40",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t41",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t42",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t43",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t44",
+    "kind": "country",
+    "lang": "en",
+    "rank": 14
+   },
+   {
+    "task": "t45",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 32
+   },
+   {
+    "task": "t46",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 55
+   },
+   {
+    "task": "t47",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 17
+   },
+   {
+    "task": "t48",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t49",
+    "kind": "country",
+    "lang": "no",
+    "rank": 18
+   },
+   {
+    "task": "t50",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 4
+   },
+   {
+    "task": "t51",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t52",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t53",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t54",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t55",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t56",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t57",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t58",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   }
+  ]
+ },
+ "ai": {
+  "recall@1": 0.603,
+  "recall@3": 0.707,
+  "recall@5": 0.81,
+  "recall@3_by_lang": {
+   "en": 0.8,
+   "no": 0.333,
+   "sv": 0.0
+  },
+  "recall@3_by_kind": {
+   "country": 0.286,
+   "direct": 0.773,
+   "sibling": 0.759
+  },
+  "median_rank": 1,
+  "rows": [
+   {
+    "task": "t01",
+    "kind": "country",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t02",
+    "kind": "country",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t03",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t04",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t05",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 40
+   },
+   {
+    "task": "t06",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t07",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t08",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t09",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 4
+   },
+   {
+    "task": "t10",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t11",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t12",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t13",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t14",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t15",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t16",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 11
+   },
+   {
+    "task": "t17",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t18",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 27
+   },
+   {
+    "task": "t19",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t20",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t21",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t22",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t23",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t24",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t25",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t26",
+    "kind": "sibling",
+    "lang": "no",
+    "rank": 2
+   },
+   {
+    "task": "t27",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t28",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t29",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t30",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t31",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 21
+   },
+   {
+    "task": "t32",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t33",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 12
+   },
+   {
+    "task": "t34",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t35",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 16
+   },
+   {
+    "task": "t36",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 8
+   },
+   {
+    "task": "t37",
+    "kind": "direct",
+    "lang": "no",
+    "rank": 25
+   },
+   {
+    "task": "t38",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t39",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t40",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t41",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t42",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t43",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 7
+   },
+   {
+    "task": "t44",
+    "kind": "country",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t45",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 10
+   },
+   {
+    "task": "t46",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t47",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 21
+   },
+   {
+    "task": "t48",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t49",
+    "kind": "country",
+    "lang": "no",
+    "rank": 4
+   },
+   {
+    "task": "t50",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t51",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t52",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t53",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t54",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t55",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t56",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t57",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t58",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   }
+  ]
+ },
+ "pagetext": {
+  "recall@1": 0.534,
+  "recall@3": 0.672,
+  "recall@5": 0.759,
+  "recall@3_by_lang": {
+   "en": 0.76,
+   "no": 0.333,
+   "sv": 0.0
+  },
+  "recall@3_by_kind": {
+   "country": 0.143,
+   "direct": 0.682,
+   "sibling": 0.793
+  },
+  "median_rank": 1,
+  "rows": [
+   {
+    "task": "t01",
+    "kind": "country",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t02",
+    "kind": "country",
+    "lang": "en",
+    "rank": 13
+   },
+   {
+    "task": "t03",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t04",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t05",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 40
+   },
+   {
+    "task": "t06",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t07",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 6
+   },
+   {
+    "task": "t08",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t09",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t10",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t11",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t12",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t13",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t14",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t15",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t16",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 11
+   },
+   {
+    "task": "t17",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t18",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t19",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t20",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t21",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t22",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t23",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t24",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t25",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t26",
+    "kind": "sibling",
+    "lang": "no",
+    "rank": 2
+   },
+   {
+    "task": "t27",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 3
+   },
+   {
+    "task": "t28",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 4
+   },
+   {
+    "task": "t29",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 4
+   },
+   {
+    "task": "t30",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t31",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 20
+   },
+   {
+    "task": "t32",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t33",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 5
+   },
+   {
+    "task": "t34",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t35",
+    "kind": "direct",
+    "lang": "sv",
+    "rank": 16
+   },
+   {
+    "task": "t36",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 8
+   },
+   {
+    "task": "t37",
+    "kind": "direct",
+    "lang": "no",
+    "rank": 25
+   },
+   {
+    "task": "t38",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t39",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t40",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t41",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 7
+   },
+   {
+    "task": "t42",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t43",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t44",
+    "kind": "country",
+    "lang": "en",
+    "rank": 14
+   },
+   {
+    "task": "t45",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 9
+   },
+   {
+    "task": "t46",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 14
+   },
+   {
+    "task": "t47",
+    "kind": "country",
+    "lang": "sv",
+    "rank": 20
+   },
+   {
+    "task": "t48",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t49",
+    "kind": "country",
+    "lang": "no",
+    "rank": 4
+   },
+   {
+    "task": "t50",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 2
+   },
+   {
+    "task": "t51",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t52",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 7
+   },
+   {
+    "task": "t53",
+    "kind": "direct",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t54",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t55",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t56",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t57",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   },
+   {
+    "task": "t58",
+    "kind": "sibling",
+    "lang": "en",
+    "rank": 1
+   }
+  ]
+ }
+}
