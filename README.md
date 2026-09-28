@@ -30,6 +30,10 @@ What this would mean for the catalogue: state the language in whatever tool or M
 exposes it; don't prioritise hand-written agent guides at this size; when the catalogue outgrows
 a context window, index the page text that already exists.
 
+**And then I built the thing the numbers point to:** an MCP server over the catalogue
+(`hittbar/server.py`) whose search indexes the page text and whose tool description states the
+language. [Below](#the-mcp-server).
+
 ## The setup
 
 **Catalogue.** `hittbar/scrape.py` reads the portal's public `/llms-full.txt`, then each product
@@ -140,6 +144,41 @@ Hint:       home insurance sales API for private customers Sweden, quote and pur
   have a description identical to their title. The full-context agent coped; a search index gets
   nothing from them.
 
+## The MCP server
+
+`hittbar/server.py` exposes the snapshot to any MCP client over stdio. Two read-only tools:
+
+| Tool | What it does |
+|---|---|
+| `search_api_catalogue(query, limit=5)` | BM25 over the `pagetext` view, the best search lens above. Returns product id, name, description, page and URL |
+| `get_api_product(product_id)` | One product's page, category and every API in it, duplicates removed |
+
+Every design choice comes from a measurement, not from taste:
+
+- **The search tool's description says *"The catalogue is written in English."*** and tells the
+  agent to write the query in English and name the country. That is result 3 turned into a
+  default. A test fails if the sentence is removed.
+- **It indexes the page text, not a generated `aiDescription`.** That is result 3's control.
+- **Both tools return typed, schema-described output**, and an unknown `product_id` is a tool
+  error that tells the agent to search instead, not an empty answer.
+
+The tests (`tests/test_server.py`) go through the MCP protocol, in-process and as a real stdio
+subprocess, and replay the README's own example: Opus's English query for task t47 ranks
+`buy-home-insurance-se` first; its Swedish query does not reach the top 5.
+
+Connect it to Claude Code:
+
+```bash
+claude mcp add hittbar -e PYTHONPATH=/path/to/hittbar -- /path/to/hittbar/.venv/bin/python -m hittbar.server
+```
+
+or to any client that takes a stdio command, from the repo root: `.venv/bin/python -m hittbar.server`.
+
+**Not built, deliberately:** access control. The public catalogue needs none, and a real version
+in front of If's partner specs would sit behind the portal's existing OAuth (client credentials or
+auth code with PKCE) rather than invent its own. Also not built: an embedding index, which is the
+next experiment above, not a result.
+
 ## Cost
 
 | Step | Calls | Cost |
@@ -152,8 +191,9 @@ Hint:       home insurance sales API for private customers Sweden, quote and pur
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m pytest              # 15 tests, no key, no network
+.venv/bin/python -m pytest              # 23 tests, no key, no network
 .venv/bin/python -m hittbar.search      # free, deterministic
+.venv/bin/python -m hittbar.server      # the MCP server, stdio
 
 export ANTHROPIC_API_KEY=...
 .venv/bin/python -m hittbar.evaluate --runs 3   # ~$10
@@ -172,6 +212,7 @@ hittbar/agent.py       pick one product or "none", schema-constrained
 hittbar/evaluate.py    full-context eval, deterministic scoring, cost and latency
 hittbar/search.py      BM25 lens, no model
 hittbar/query.py       agent-written queries through the same index
+hittbar/server.py      MCP server: search + product lookup, read-only
 data/tasks.jsonl       66 tasks, frozen before generation
 runs/                  every run behind every number above
 ```
